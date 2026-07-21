@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    namespace = "com.rostrumpodcasts.rostrum"
+    namespace = "com.rostrumpodcast.rostrum"
     compileSdk {
         version = release(36)
     }
@@ -22,7 +22,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.rostrumpodcasts.rostrum"
+        applicationId = "com.rostrumpodcast.rostrum"
         minSdk = 26
         targetSdk = 36
         versionCode = "1"
