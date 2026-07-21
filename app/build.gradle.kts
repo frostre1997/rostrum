@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    namespace = "app.podiumpodcasts.podium"
+    namespace = "com.rostrumpodcasts.rostrum"
     compileSdk {
         version = release(36)
     }
