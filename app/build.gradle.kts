@@ -22,11 +22,11 @@ android {
     }
 
     defaultConfig {
-        applicationId = "app.podiumpodcasts.podium"
+        applicationId = "com.rostrumpodcasts.rostrum"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1000008
-        versionName = "1.0.0-alpha08"
+        versionCode = "1"
+        versionName = "0.1.0-alpha.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
