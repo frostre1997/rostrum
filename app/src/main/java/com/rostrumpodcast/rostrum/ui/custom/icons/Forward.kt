@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.custom.icons
+package com.rostrumpodcast.rostrum.ui.custom.icons
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.materialIcon

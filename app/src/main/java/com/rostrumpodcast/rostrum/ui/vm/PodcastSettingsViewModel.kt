@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.vm
+package com.rostrumpodcast.rostrum.ui.vm
 
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.getValue
@@ -8,13 +8,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import app.rostrumpodcast.podium.api.apple.ApplePodcastClient
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.db.model.PodcastModel
-import app.rostrumpodcast.podium.api.db.model.PodcastSubscriptionModel
-import app.rostrumpodcast.podium.api.model.PodcastPreviewModel
-import app.rostrumpodcast.podium.manager.AddPodcastResult
-import app.rostrumpodcast.podium.manager.PodcastManager
+import com.rostrumpodcast.rostrum.api.apple.ApplePodcastClient
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastSubscriptionModel
+import com.rostrumpodcast.rostrum.api.model.PodcastPreviewModel
+import com.rostrumpodcast.rostrum.manager.AddPodcastResult
+import com.rostrumpodcast.rostrum.manager.PodcastManager
 import coil3.compose.AsyncImagePainter
 import coil3.toBitmap
 import com.materialkolor.ktx.themeColorOrNull

@@ -1,11 +1,11 @@
-package app.rostrumpodcast.podium.ui.vm.list
+package com.rostrumpodcast.rostrum.ui.vm.list
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.db.model.ListWithContains
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.ListWithContains
 import kotlinx.coroutines.launch
 
 class SaveToListBottomSheetViewModel(

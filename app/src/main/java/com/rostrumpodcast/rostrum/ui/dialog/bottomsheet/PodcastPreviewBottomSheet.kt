@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.dialog.bottomsheet
+package com.rostrumpodcast.rostrum.ui.dialog.bottomsheet
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.WindowInsets
@@ -13,9 +13,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import app.podiumpodcast.podium.api.db.model.PodcastModel
-import app.podiumpodcast.podium.api.model.PodcastPreviewModel
-import app.podiumpodcast.podium.ui.view.model.PodcastPreviewView
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.api.model.PodcastPreviewModel
+import com.rostrumpodcast.rostrum.ui.view.model.PodcastPreviewView
 import kotlinx.coroutines.launch
 
 class PodcastPreviewBottomSheetState {

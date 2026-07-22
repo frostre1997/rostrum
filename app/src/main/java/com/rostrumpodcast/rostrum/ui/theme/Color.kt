@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.theme
+package com.rostrumpodcast.rostrum.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

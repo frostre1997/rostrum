@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui
+package com.rostrumpodcast.rostrum.ui
 
 import android.annotation.SuppressLint
 import android.os.Parcelable
@@ -44,23 +44,23 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation3.runtime.NavBackStack
 import androidx.navigation3.runtime.NavKey
 import androidx.navigation3.runtime.rememberNavBackStack
-import app.rostrumpodcast.podium.ui.component.common.SwitchableDynamicMaterialExpressiveTheme
-import app.rostrumpodcast.podium.ui.component.media.FloatingMediaPlayer
-import app.rostrumpodcast.podium.ui.component.media.FloatingMediaPlayerHeight
-import app.rostrumpodcast.podium.ui.component.media.LocalFloatingMediaPlayerHeight
-import app.rostrumpodcast.podium.ui.component.media.LocalFloatingMediaPlayerShown
-import app.rostrumpodcast.podium.ui.dialog.bottomsheet.media.MediaPlayerBottomSheet
-import app.rostrumpodcast.podium.ui.helper.LocalDatabase
-import app.rostrumpodcast.podium.ui.helper.LocalSettingsRepository
-import app.rostrumpodcast.podium.ui.navigation.Home
-import app.rostrumpodcast.podium.ui.navigation.NavBarScaffold
-import app.rostrumpodcast.podium.ui.navigation.Navigation
-import app.rostrumpodcast.podium.ui.navigation.PodiumNavKey
-import app.rostrumpodcast.podium.ui.route.settings.SettingsPane
-import app.rostrumpodcast.podium.ui.route.settings.SettingsPaneKey
-import app.rostrumpodcast.podium.ui.view.model.PodcastDetailView
-import app.rostrumpodcast.podium.ui.view.model.PodcastEpisodeDetailView
-import app.rostrumpodcast.podium.ui.vm.MainViewModel
+import com.rostrumpodcast.rostrum.ui.component.common.SwitchableDynamicMaterialExpressiveTheme
+import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayer
+import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerHeight
+import com.rostrumpodcast.rostrum.ui.component.media.LocalFloatingMediaPlayerHeight
+import com.rostrumpodcast.rostrum.ui.component.media.LocalFloatingMediaPlayerShown
+import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.media.MediaPlayerBottomSheet
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
+import com.rostrumpodcast.rostrum.ui.navigation.Home
+import com.rostrumpodcast.rostrum.ui.navigation.NavBarScaffold
+import com.rostrumpodcast.rostrum.ui.navigation.Navigation
+import com.rostrumpodcast.rostrum.ui.navigation.RostrumNavKey
+import com.rostrumpodcast.rostrum.ui.route.settings.SettingsPane
+import com.rostrumpodcast.rostrum.ui.route.settings.SettingsPaneKey
+import com.rostrumpodcast.rostrum.ui.view.model.PodcastDetailView
+import com.rostrumpodcast.rostrum.ui.view.model.PodcastEpisodeDetailView
+import com.rostrumpodcast.rostrum.ui.vm.MainViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.parcelize.Parcelize
@@ -143,7 +143,7 @@ fun Main(
         if(navigationScaffoldLayoutType != NavigationSuiteType.NavigationBar) return@LaunchedEffect
 
         val entry = backStack.last()
-        if(entry is PodiumNavKey) {
+        if(entry is RostrumNavKey) {
             vm.hideFloatingMediaPlayer.value = !entry.showMediaPlayer
 
             val shouldNavBeVisible =

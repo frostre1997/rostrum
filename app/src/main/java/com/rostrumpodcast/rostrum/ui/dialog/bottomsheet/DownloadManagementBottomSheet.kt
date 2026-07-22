@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.dialog.bottomsheet
+package com.rostrumpodcast.rostrum.ui.dialog.bottomsheet
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
@@ -30,15 +30,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.api.db.model.PodcastEpisodeBundle
-import app.podiumpodcast.podium.api.db.model.PodcastEpisodeDownloadState
-import app.podiumpodcast.podium.manager.DownloadManager
-import app.podiumpodcast.podium.ui.component.DetailsList
-import app.podiumpodcast.podium.ui.component.DetailsListItemModel
-import app.podiumpodcast.podium.ui.formatFileSize
-import app.podiumpodcast.podium.ui.formatPubDate
-import app.podiumpodcast.podium.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadState
+import com.rostrumpodcast.rostrum.manager.DownloadManager
+import com.rostrumpodcast.rostrum.ui.component.DetailsList
+import com.rostrumpodcast.rostrum.ui.component.DetailsListItemModel
+import com.rostrumpodcast.rostrum.ui.formatFileSize
+import com.rostrumpodcast.rostrum.ui.formatPubDate
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)

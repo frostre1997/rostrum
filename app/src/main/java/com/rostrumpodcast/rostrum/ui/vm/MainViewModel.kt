@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.vm
+package com.rostrumpodcast.rostrum.ui.vm
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel

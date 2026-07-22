@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.component.model
+package com.rostrumpodcast.rostrum.ui.component.model
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.material.icons.Icons
@@ -11,10 +11,10 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.res.stringResource
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.ui.component.common.ButtonLabelWithIconInset
-import app.podiumpodcast.podium.ui.dialog.bottomsheet.SaveToListBottomSheet
-import app.podiumpodcast.podium.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.component.common.ButtonLabelWithIconInset
+import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.SaveToListBottomSheet
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

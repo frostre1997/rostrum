@@ -1,10 +1,10 @@
-package app.rostrumpodcast.podium.ui.vm.list
+package com.rostrumpodcast.rostrum.ui.vm.list
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.db.model.ListModel
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.ListModel
 import kotlinx.coroutines.launch
 
 interface ListCreateBottomSheetState {

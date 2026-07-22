@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.vm
+package com.rostrumpodcast.rostrum.ui.vm
 
 import android.content.Context
 import android.os.Bundle
@@ -22,17 +22,17 @@ import androidx.media3.common.Player
 import androidx.media3.session.MediaController
 import androidx.media3.session.SessionCommand
 import androidx.media3.session.SessionResult
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.db.model.MediaMetadataExtra
-import app.rostrumpodcast.podium.api.db.model.PodcastEpisodeBundle
-import app.rostrumpodcast.podium.background.COMMAND_SET_SEEK_BACK_INCREMENT
-import app.rostrumpodcast.podium.background.COMMAND_SET_SEEK_FORWARD_INCREMENT
-import app.rostrumpodcast.podium.background.COMMAND_SLEEP_TIMER_GET
-import app.rostrumpodcast.podium.background.COMMAND_SLEEP_TIMER_SET
-import app.rostrumpodcast.podium.utils.getEpisodeId
-import app.rostrumpodcast.podium.utils.getImageSeedColor
-import app.rostrumpodcast.podium.utils.getOrigin
-import app.rostrumpodcast.podium.utils.isDownload
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.MediaMetadataExtra
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.background.COMMAND_SET_SEEK_BACK_INCREMENT
+import com.rostrumpodcast.rostrum.background.COMMAND_SET_SEEK_FORWARD_INCREMENT
+import com.rostrumpodcast.rostrum.background.COMMAND_SLEEP_TIMER_GET
+import com.rostrumpodcast.rostrum.background.COMMAND_SLEEP_TIMER_SET
+import com.rostrumpodcast.rostrum.utils.getEpisodeId
+import com.rostrumpodcast.rostrum.utils.getImageSeedColor
+import com.rostrumpodcast.rostrum.utils.getOrigin
+import com.rostrumpodcast.rostrum.utils.isDownload
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlin.math.roundToInt

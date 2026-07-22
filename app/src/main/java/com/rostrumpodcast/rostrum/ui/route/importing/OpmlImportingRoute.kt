@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.route.importing
+package com.rostrumpodcast.rostrum.ui.route.importing
 
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -54,17 +54,17 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.manager.PodcastManager
-import app.podiumpodcast.podium.ui.component.common.BackButton
-import app.rostrumpodcast.podium.ui.component.layout.ErrorLayout
-import app.rostrumpodcast.podium.ui.component.layout.InfoLayout
-import app.rostrumpodcast.podium.ui.component.layout.LoadingLayout
-import app.rostrumpodcast.podium.ui.component.layout.StateIconLayout
-import app.rostrumpodcast.podium.ui.helper.LocalDatabase
-import app.rostrumpodcast.podium.ui.theme.Typography
-import app.rostrumpodcast.podium.ui.vm.importing.OpmlImportingViewModel
-import app.rostrumpodcast.podium.ui.vm.importing.State
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.manager.PodcastManager
+import com.rostrumpodcast.rostrum.ui.component.common.BackButton
+import com.rostrumpodcast.rostrum.ui.component.layout.ErrorLayout
+import com.rostrumpodcast.rostrum.ui.component.layout.InfoLayout
+import com.rostrumpodcast.rostrum.ui.component.layout.LoadingLayout
+import com.rostrumpodcast.rostrum.ui.component.layout.StateIconLayout
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.theme.Typography
+import com.rostrumpodcast.rostrum.ui.vm.importing.OpmlImportingViewModel
+import com.rostrumpodcast.rostrum.ui.vm.importing.State
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable

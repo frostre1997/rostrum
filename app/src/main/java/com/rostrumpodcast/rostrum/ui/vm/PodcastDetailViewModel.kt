@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.vm
+package com.rostrumpodcast.rostrum.ui.vm
 
 import android.content.Context
 import androidx.compose.foundation.lazy.LazyListState
@@ -15,16 +15,16 @@ import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.cachedIn
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.db.dao.PodcastEpisodesFilter
-import app.rostrumpodcast.podium.api.db.dao.PodcastEpisodesOrder
-import app.rostrumpodcast.podium.api.db.dao.PodcastEpisodesOrderBy
-import app.rostrumpodcast.podium.api.db.model.PodcastEpisodeBundle
-import app.rostrumpodcast.podium.api.db.model.PodcastModel
-import app.rostrumpodcast.podium.background.work.SingularPodcastUpdateWork
-import app.rostrumpodcast.podium.manager.SubscriptionManager
-import app.rostrumpodcast.podium.ui.component.model.podcast.PodcastSearchFilterOrderBarState
-import app.rostrumpodcast.podium.ui.view.model.Destinations
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodesFilter
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodesOrder
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodesOrderBy
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.background.work.SingularPodcastUpdateWork
+import com.rostrumpodcast.rostrum.manager.SubscriptionManager
+import com.rostrumpodcast.rostrum.ui.component.model.podcast.PodcastSearchFilterOrderBarState
+import com.rostrumpodcast.rostrum.ui.view.model.Destinations
 import coil3.Image
 import coil3.asDrawable
 import com.materialkolor.ktx.themeColorOrNull

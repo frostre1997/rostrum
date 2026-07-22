@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.dialog.bottomsheet
+package com.rostrumpodcast.rostrum.ui.dialog.bottomsheet
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.layout.Arrangement
@@ -25,12 +25,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.ui.component.layout.ErrorLayout
-import app.podiumpodcast.podium.ui.helper.LocalDatabase
-import app.podiumpodcast.podium.ui.theme.Typography
-import app.podiumpodcast.podium.ui.vm.list.ListCreateBottomSheetState
-import app.podiumpodcast.podium.ui.vm.list.ListCreateBottomSheetViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.component.layout.ErrorLayout
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.theme.Typography
+import com.rostrumpodcast.rostrum.ui.vm.list.ListCreateBottomSheetState
+import com.rostrumpodcast.rostrum.ui.vm.list.ListCreateBottomSheetViewModel
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable

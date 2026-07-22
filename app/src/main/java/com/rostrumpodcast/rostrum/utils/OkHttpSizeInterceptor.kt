@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.utils
+package com.rostrumpodcast.rostrum.utils
 
 import okhttp3.Interceptor
 import okhttp3.Response

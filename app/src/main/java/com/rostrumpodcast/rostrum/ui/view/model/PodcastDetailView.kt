@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.view.model
+package com.rostrumpodcast.rostrum.ui.view.model
 
 import androidx.activity.compose.LocalActivity
 import androidx.annotation.StringRes
@@ -94,36 +94,36 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.paging.compose.LazyPagingItems
 import androidx.paging.compose.collectAsLazyPagingItems
 import androidx.paging.compose.itemKey
-import app.rostrumpodcast.podium.AppActivity
-import app.rostrumpodcast.podium.R
-import app.rostrumpodcast.podium.api.db.model.PodcastEpisodeBundle
-import app.rostrumpodcast.podium.api.db.model.PodcastEpisodeModel
-import app.rostrumpodcast.podium.api.db.model.PodcastModel
-import app.rostrumpodcast.podium.ui.component.DetailsList
-import app.rostrumpodcast.podium.ui.component.DetailsListItemModel
-import app.rostrumpodcast.podium.ui.component.PodiumSnackbarHost
-import app.rostrumpodcast.podium.ui.component.common.BackButton
-import app.rostrumpodcast.podium.ui.component.common.BubbleButton
-import app.rostrumpodcast.podium.ui.component.common.ButtonLabelWithIconInset
-import app.rostrumpodcast.podium.ui.component.common.ExpandableText
-import app.rostrumpodcast.podium.ui.component.common.swipeable.SwipeableItem
-import app.rostrumpodcast.podium.ui.component.common.swipeable.SwipeableItemActionResult
-import app.rostrumpodcast.podium.ui.component.common.swipeable.SwipeableItemActions
-import app.rostrumpodcast.podium.ui.component.layout.InfoLayout
-import app.rostrumpodcast.podium.ui.component.media.FloatingMediaPlayerBreakpoint
-import app.rostrumpodcast.podium.ui.component.media.FloatingMediaPlayerSpacer
-import app.rostrumpodcast.podium.ui.component.media.LocalFloatingMediaPlayerHeight
-import app.rostrumpodcast.podium.ui.component.model.ContentFavoriteButton
-import app.rostrumpodcast.podium.ui.component.model.ContentSaveToListButton
-import app.rostrumpodcast.podium.ui.component.model.episode.PodcastEpisodeListItem
-import app.rostrumpodcast.podium.ui.component.model.podcast.PodcastSearchFilterOrderBar
-import app.rostrumpodcast.podium.ui.dialog.DeleteConfirmationDialog
-import app.rostrumpodcast.podium.ui.dialog.ShimmerAsyncImage
-import app.rostrumpodcast.podium.ui.dialog.bottomsheet.PodcastSettingsBottomSheet
-import app.rostrumpodcast.podium.ui.formatFileSize
-import app.rostrumpodcast.podium.ui.helper.LocalDatabase
-import app.rostrumpodcast.podium.ui.theme.Typography
-import app.rostrumpodcast.podium.ui.vm.PodcastDetailViewModel
+import com.rostrumpodcast.rostrum.AppActivity
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.ui.component.DetailsList
+import com.rostrumpodcast.rostrum.ui.component.DetailsListItemModel
+import com.rostrumpodcast.rostrum.ui.component.RostrumSnackbarHost
+import com.rostrumpodcast.rostrum.ui.component.common.BackButton
+import com.rostrumpodcast.rostrum.ui.component.common.BubbleButton
+import com.rostrumpodcast.rostrum.ui.component.common.ButtonLabelWithIconInset
+import com.rostrumpodcast.rostrum.ui.component.common.ExpandableText
+import com.rostrumpodcast.rostrum.ui.component.common.swipeable.SwipeableItem
+import com.rostrumpodcast.rostrum.ui.component.common.swipeable.SwipeableItemActionResult
+import com.rostrumpodcast.rostrum.ui.component.common.swipeable.SwipeableItemActions
+import com.rostrumpodcast.rostrum.ui.component.layout.InfoLayout
+import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerBreakpoint
+import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerSpacer
+import com.rostrumpodcast.rostrum.ui.component.media.LocalFloatingMediaPlayerHeight
+import com.rostrumpodcast.rostrum.ui.component.model.ContentFavoriteButton
+import com.rostrumpodcast.rostrum.ui.component.model.ContentSaveToListButton
+import com.rostrumpodcast.rostrum.ui.component.model.episode.PodcastEpisodeListItem
+import com.rostrumpodcast.rostrum.ui.component.model.podcast.PodcastSearchFilterOrderBar
+import com.rostrumpodcast.rostrum.ui.dialog.DeleteConfirmationDialog
+import com.rostrumpodcast.rostrum.ui.dialog.ShimmerAsyncImage
+import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.PodcastSettingsBottomSheet
+import com.rostrumpodcast.rostrum.ui.formatFileSize
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.theme.Typography
+import com.rostrumpodcast.rostrum.ui.vm.PodcastDetailViewModel
 import coil3.compose.AsyncImagePainter
 import com.materialkolor.ktx.harmonizeWithPrimary
 import dev.chrisbanes.haze.hazeEffect
@@ -179,7 +179,7 @@ fun PodcastDetailView(
         BoxWithConstraints {
             Scaffold(
                 snackbarHost = {
-                    PodiumSnackbarHost(vm.snackbarHostState)
+                    RostrumSnackbarHost(vm.snackbarHostState)
                 },
                 topBar = {
                     TopAppBar(

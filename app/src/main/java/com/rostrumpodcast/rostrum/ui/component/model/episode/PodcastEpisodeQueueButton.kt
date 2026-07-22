@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.component.model.episode
+package com.rostrumpodcast.rostrum.ui.component.model.episode
 
 import androidx.activity.compose.LocalActivity
 import androidx.compose.animation.AnimatedContent
@@ -20,10 +20,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
-import app.podiumpodcast.podium.AppActivity
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.api.db.model.PodcastEpisodeBundle
-import app.podiumpodcast.podium.ui.vm.MediaPlayerViewModel
+import com.rostrumpodcast.rostrum.AppActivity
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.ui.vm.MediaPlayerViewModel
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

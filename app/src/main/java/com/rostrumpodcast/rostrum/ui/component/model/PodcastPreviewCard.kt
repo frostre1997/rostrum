@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.component.model
+package com.rostrumpodcast.rostrum.ui.component.model
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -19,10 +19,10 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.min
-import app.podiumpodcast.podium.api.db.model.PodcastModel
-import app.podiumpodcast.podium.api.model.PodcastPreviewModel
-import app.podiumpodcast.podium.ui.dialog.ShimmerAsyncImage
-import app.podiumpodcast.podium.ui.theme.Typography
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.api.model.PodcastPreviewModel
+import com.rostrumpodcast.rostrum.ui.dialog.ShimmerAsyncImage
+import com.rostrumpodcast.rostrum.ui.theme.Typography
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

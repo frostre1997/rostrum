@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.utils.rss
+package com.rostrumpodcast.rostrum.utils.rss
 
 import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
 import app.rostrumpodcast.rostrum.api.db.model.PodcastModel

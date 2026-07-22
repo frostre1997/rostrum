@@ -1,10 +1,10 @@
-package app.rostrumpodcast.podium.ui.vm
+package com.rostrumpodcast.rostrum.ui.vm
 
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.lifecycle.ViewModel
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
-import app.rostrumpodcast.podium.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
 
 class DownloadsViewModel(
     val db: AppDatabase

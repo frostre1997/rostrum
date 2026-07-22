@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.utils
+package com.rostrumpodcast.rostrum.utils
 
 import android.content.Context
 import android.content.Intent

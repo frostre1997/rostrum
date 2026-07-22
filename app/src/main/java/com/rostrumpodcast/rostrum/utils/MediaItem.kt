@@ -1,8 +1,8 @@
-package app.rostrumpodcast.podium.utils
+package com.rostrumpodcast.rostrum.utils
 
 import androidx.media3.common.MediaItem
 import androidx.media3.common.MediaMetadata
-import app.rostrumpodcast.podium.api.db.model.MediaMetadataExtra
+import com.rostrumpodcast.rostrum.api.db.model.MediaMetadataExtra
 
 
 fun MediaMetadata.getOrigin(): String {

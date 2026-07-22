@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.route.licenses
+package com.rostrumpodcast.rostrum.ui.route.licenses
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -10,8 +10,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import app.rostrumpodcast.podium.R
-import app.rostrumpodcast.podium.ui.component.common.BackButton
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.component.common.BackButton
 import com.mikepenz.aboutlibraries.ui.compose.android.produceLibraries
 import com.mikepenz.aboutlibraries.ui.compose.m3.LibrariesContainer
 

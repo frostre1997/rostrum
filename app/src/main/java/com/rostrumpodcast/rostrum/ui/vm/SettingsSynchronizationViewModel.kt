@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.vm
+package com.rostrumpodcast.rostrum.ui.vm
 
 import android.content.Context
 import androidx.browser.customtabs.CustomTabsIntent
@@ -6,12 +6,12 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.core.net.toUri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import app.rostrumpodcast.podium.SettingsRepository
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.sync.gpodder.GpodderClient
-import app.rostrumpodcast.podium.api.sync.nextcloud_gpodder.NextcloudGpodderClient
-import app.rostrumpodcast.podium.api.sync.nextcloud_gpodder.model.PollResult
-import app.rostrumpodcast.podium.background.worker.sync.FullSynchronizationWorker
+import com.rostrumpodcast.rostrum.SettingsRepository
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.sync.gpodder.GpodderClient
+import com.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.NextcloudGpodderClient
+import com.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.model.PollResult
+import com.rostrumpodcast.rostrum.background.worker.sync.FullSynchronizationWorker
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch

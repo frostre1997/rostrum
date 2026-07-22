@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.component.settings
+package com.rostrumpodcast.rostrum.ui.component.settings
 
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.material3.Switch

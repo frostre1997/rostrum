@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.route.settings.pane
+package com.rostrumpodcast.rostrum.ui.route.settings.pane
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Arrangement
@@ -24,12 +24,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import app.rostrumpodcast.podium.R
-import app.rostrumpodcast.podium.ui.component.settings.SettingsSwitchListItem
-import app.rostrumpodcast.podium.ui.helper.LocalDatabase
-import app.rostrumpodcast.podium.ui.helper.LocalSettingsRepository
-import app.rostrumpodcast.podium.ui.route.settings.SettingsPaneKey
-import app.rostrumpodcast.podium.ui.vm.SettingsViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.component.settings.SettingsSwitchListItem
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
+import com.rostrumpodcast.rostrum.ui.route.settings.SettingsPaneKey
+import com.rostrumpodcast.rostrum.ui.vm.SettingsViewModel
 import kotlinx.coroutines.launch
 import kotlinx.serialization.Serializable
 

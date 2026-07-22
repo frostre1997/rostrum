@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium
+package com.rostrumpodcast.rostrum
 
 import android.Manifest
 import android.content.ComponentName
@@ -63,7 +63,7 @@ class AppActivity : ComponentActivity() {
                 LocalDatabase provides db,
                 LocalSettingsRepository provides settingsRepository
             ) {
-                PodiumApp(
+                RostrumApp(
                     deepLink
                 )
             }

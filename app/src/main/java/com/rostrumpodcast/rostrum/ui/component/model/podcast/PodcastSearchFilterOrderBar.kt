@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.component.model.podcast
+package com.rostrumpodcast.rostrum.ui.component.model.podcast
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -32,12 +32,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.api.db.dao.PodcastEpisodesFilter
-import app.podiumpodcast.podium.api.db.dao.PodcastEpisodesOrder
-import app.podiumpodcast.podium.api.db.dao.PodcastEpisodesOrderBy
-import app.podiumpodcast.podium.ui.dialog.bottomsheet.podcast.PodcastFilterBottomSheet
-import app.podiumpodcast.podium.ui.dialog.bottomsheet.podcast.PodcastOrderBottomSheet
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodesFilter
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodesOrder
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodesOrderBy
+import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.podcast.PodcastFilterBottomSheet
+import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.podcast.PodcastOrderBottomSheet
 import kotlinx.coroutines.delay
 
 class podcastearchFilterOrderBarState {

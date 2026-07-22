@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">podium</string>
+    <string name="app_name">rostrum</string>
     <string name="app_name_alternative">Podcasts</string>
     <string name="badge_powered_by_apple_podcasts">Via Apple Podcasts</string>
     <string name="badge_powered_by_apple_podcasts_text">%1$s utilise plusieurs APIs d\'Apple fournissant les fonctionnalités \"Recherche\" et \"Découvrir\". Vous pouvez désactiver l\'utilisation des APIs Apple dans les paramètres.</string>

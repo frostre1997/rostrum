@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.component.settings
+package com.rostrumpodcast.rostrum.ui.component.settings
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
@@ -9,7 +9,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.res.stringResource
-import app.podiumpodcast.podium.R
+import com.rostrumpodcast.rostrum.R
 import kotlin.math.roundToInt
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

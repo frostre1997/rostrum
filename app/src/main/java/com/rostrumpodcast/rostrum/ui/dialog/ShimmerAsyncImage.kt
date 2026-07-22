@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.dialog
+package com.rostrumpodcast.rostrum.ui.dialog
 
 import androidx.compose.foundation.background
 import androidx.compose.material3.MaterialTheme

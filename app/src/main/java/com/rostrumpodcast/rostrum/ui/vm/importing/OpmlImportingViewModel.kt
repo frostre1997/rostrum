@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.vm.importing
+package com.rostrumpodcast.rostrum.ui.vm.importing
 
 import android.content.Context
 import android.net.Uri
@@ -6,9 +6,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.mutableStateSetOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.opml.model.OpmlFile
-import app.rostrumpodcast.podium.manager.PodcastManager
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.opml.model.OpmlFile
+import com.rostrumpodcast.rostrum.manager.PodcastManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

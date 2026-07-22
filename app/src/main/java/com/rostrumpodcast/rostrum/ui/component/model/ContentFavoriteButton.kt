@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.component.model
+package com.rostrumpodcast.rostrum.ui.component.model
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.material.icons.Icons
@@ -13,9 +13,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.res.stringResource
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.api.db.model.SystemLists
-import app.podiumpodcast.podium.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.SystemLists
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

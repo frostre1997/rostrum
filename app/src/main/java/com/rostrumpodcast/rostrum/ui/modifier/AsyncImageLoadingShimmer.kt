@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.modifier
+package com.rostrumpodcast.rostrum.ui.modifier
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue

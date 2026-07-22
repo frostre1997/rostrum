@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.route.list
+package com.rostrumpodcast.rostrum.ui.route.list
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -35,22 +35,22 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.paging.compose.collectAsLazyPagingItems
 import androidx.paging.compose.itemKey
-import app.rostrumpodcast.podium.R
-import app.rostrumpodcast.podium.api.db.model.PodcastEpisodeModel
-import app.rostrumpodcast.podium.ui.component.PodiumSnackbarHost
-import app.rostrumpodcast.podium.ui.component.common.BackButton
-import app.rostrumpodcast.podium.ui.component.common.BubbleButton
-import app.rostrumpodcast.podium.ui.component.common.swipeable.SwipeableItem
-import app.rostrumpodcast.podium.ui.component.common.swipeable.SwipeableItemActionResult
-import app.rostrumpodcast.podium.ui.component.common.swipeable.SwipeableItemActions
-import app.rostrumpodcast.podium.ui.component.layout.InfoLayout
-import app.rostrumpodcast.podium.ui.component.media.FloatingMediaPlayerSpacer
-import app.rostrumpodcast.podium.ui.component.model.list.ListItemListItem
-import app.rostrumpodcast.podium.ui.dialog.DeleteConfirmationDialog
-import app.rostrumpodcast.podium.ui.dialog.bottomsheet.ListEditBottomSheet
-import app.rostrumpodcast.podium.ui.helper.LocalDatabase
-import app.rostrumpodcast.podium.ui.helper.PagerScaffold
-import app.rostrumpodcast.podium.ui.vm.list.ListViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.ui.component.RostrumSnackbarHost
+import com.rostrumpodcast.rostrum.ui.component.common.BackButton
+import com.rostrumpodcast.rostrum.ui.component.common.BubbleButton
+import com.rostrumpodcast.rostrum.ui.component.common.swipeable.SwipeableItem
+import com.rostrumpodcast.rostrum.ui.component.common.swipeable.SwipeableItemActionResult
+import com.rostrumpodcast.rostrum.ui.component.common.swipeable.SwipeableItemActions
+import com.rostrumpodcast.rostrum.ui.component.layout.InfoLayout
+import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerSpacer
+import com.rostrumpodcast.rostrum.ui.component.model.list.ListItemListItem
+import com.rostrumpodcast.rostrum.ui.dialog.DeleteConfirmationDialog
+import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.ListEditBottomSheet
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.helper.PagerScaffold
+import com.rostrumpodcast.rostrum.ui.vm.list.ListViewModel
 import sh.calvin.reorderable.ReorderableItem
 import sh.calvin.reorderable.rememberReorderableLazyListState
 
@@ -87,7 +87,7 @@ fun ListRoute(
     Scaffold(
         Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         snackbarHost = {
-            PodiumSnackbarHost(snackbarHostState)
+            RostrumSnackbarHost(snackbarHostState)
         },
         topBar = {
             CenterAlignedTopAppBar(

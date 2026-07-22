@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.dialog.bottomsheet.media
+package com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.media
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
@@ -21,13 +21,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import app.podiumpodcast.podium.ui.component.common.SwitchableDynamicMaterialExpressiveTheme
-import app.podiumpodcast.podium.ui.component.media.MediaItemListItem
-import app.podiumpodcast.podium.ui.helper.LocalSettingsRepository
-import app.podiumpodcast.podium.ui.theme.Typography
-import app.podiumpodcast.podium.ui.vm.MediaPlayerViewModel
-import app.podiumpodcast.podium.utils.getEpisodeId
-import app.podiumpodcast.podium.utils.getOrigin
+import com.rostrumpodcast.rostrum.ui.component.common.SwitchableDynamicMaterialExpressiveTheme
+import com.rostrumpodcast.rostrum.ui.component.media.MediaItemListItem
+import com.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
+import com.rostrumpodcast.rostrum.ui.theme.Typography
+import com.rostrumpodcast.rostrum.ui.vm.MediaPlayerViewModel
+import com.rostrumpodcast.rostrum.utils.getEpisodeId
+import com.rostrumpodcast.rostrum.utils.getOrigin
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)

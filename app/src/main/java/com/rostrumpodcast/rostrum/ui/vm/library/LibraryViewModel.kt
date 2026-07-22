@@ -1,11 +1,11 @@
-package app.rostrumpodcast.podium.ui.vm.library
+package com.rostrumpodcast.rostrum.ui.vm.library
 
 import androidx.compose.foundation.lazy.grid.LazyGridState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
-import app.rostrumpodcast.podium.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
 
 class LibraryViewModel(
     val db: AppDatabase

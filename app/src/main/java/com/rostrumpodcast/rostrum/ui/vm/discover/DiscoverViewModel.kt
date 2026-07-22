@@ -1,14 +1,14 @@
-package app.rostrumpodcast.podium.ui.vm.discover
+package com.rostrumpodcast.rostrum.ui.vm.discover
 
 import androidx.annotation.StringRes
 import androidx.compose.runtime.mutableStateMapOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import app.rostrumpodcast.podium.R
-import app.rostrumpodcast.podium.api.apple.ApplePodcastClient
-import app.rostrumpodcast.podium.api.apple.model.Genre
-import app.rostrumpodcast.podium.api.model.PodcastPreviewModel
-import app.rostrumpodcast.podium.ui.dialog.bottomsheet.PodcastPreviewBottomSheetState
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.apple.ApplePodcastClient
+import com.rostrumpodcast.rostrum.api.apple.model.Genre
+import com.rostrumpodcast.rostrum.api.model.PodcastPreviewModel
+import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.PodcastPreviewBottomSheetState
 import kotlinx.coroutines.launch
 
 enum class Topics(

@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.route.settings.pane
+package com.rostrumpodcast.rostrum.ui.route.settings.pane
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Arrangement
@@ -34,16 +34,16 @@ import androidx.work.ExistingWorkPolicy
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.OutOfQuotaPolicy
 import androidx.work.WorkManager
-import app.rostrumpodcast.podium.background.work.DeletePlayedDownloadsWork
-import app.rostrumpodcast.podium.background.work.FixSeedColorsWork
-import app.rostrumpodcast.podium.background.worker.NightlyWorker
-import app.rostrumpodcast.podium.background.worker.PeriodicPodcastUpdateWorker
-import app.rostrumpodcast.podium.ui.component.settings.SettingsListItem
-import app.rostrumpodcast.podium.ui.component.settings.SettingsSwitchListItem
-import app.rostrumpodcast.podium.ui.helper.LocalDatabase
-import app.rostrumpodcast.podium.ui.helper.LocalSettingsRepository
-import app.rostrumpodcast.podium.ui.route.settings.SettingsPaneKey
-import app.rostrumpodcast.podium.ui.vm.SettingsViewModel
+import com.rostrumpodcast.rostrum.background.work.DeletePlayedDownloadsWork
+import com.rostrumpodcast.rostrum.background.work.FixSeedColorsWork
+import com.rostrumpodcast.rostrum.background.worker.NightlyWorker
+import com.rostrumpodcast.rostrum.background.worker.PeriodicPodcastUpdateWorker
+import com.rostrumpodcast.rostrum.ui.component.settings.SettingsListItem
+import com.rostrumpodcast.rostrum.ui.component.settings.SettingsSwitchListItem
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
+import com.rostrumpodcast.rostrum.ui.route.settings.SettingsPaneKey
+import com.rostrumpodcast.rostrum.ui.vm.SettingsViewModel
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.serialization.Serializable

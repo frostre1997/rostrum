@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.component
+package com.rostrumpodcast.rostrum.ui.component
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement

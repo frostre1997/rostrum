@@ -1,12 +1,12 @@
-package app.rostrumpodcast.podium.ui
+package com.rostrumpodcast.rostrum.ui
 
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import androidx.navigation3.runtime.NavKey
-import app.rostrumpodcast.podium.AppActivity
-import app.rostrumpodcast.podium.ui.navigation.Home
-import app.rostrumpodcast.podium.utils.json
+import com.rostrumpodcast.rostrum.AppActivity
+import com.rostrumpodcast.rostrum.ui.navigation.Home
+import com.rostrumpodcast.rostrum.utils.json
 import kotlinx.serialization.Serializable
 
 @Serializable

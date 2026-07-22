@@ -1,13 +1,13 @@
-package app.rostrumpodcast.podium.ui.vm.discover
+package com.rostrumpodcast.rostrum.ui.vm.discover
 
 import androidx.compose.foundation.lazy.grid.LazyGridState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import app.rostrumpodcast.podium.api.apple.ApplePodcastClient
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.model.PodcastPreviewModel
-import app.rostrumpodcast.podium.ui.dialog.bottomsheet.PodcastPreviewBottomSheetState
+import com.rostrumpodcast.rostrum.api.apple.ApplePodcastClient
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.model.PodcastPreviewModel
+import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.PodcastPreviewBottomSheetState
 import kotlinx.coroutines.launch
 
 interface DiscoverSearchState {

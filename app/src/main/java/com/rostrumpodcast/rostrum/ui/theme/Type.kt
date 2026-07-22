@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.theme
+package com.rostrumpodcast.rostrum.ui.theme
 
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.material3.Typography
@@ -7,7 +7,7 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontVariation
 import androidx.compose.ui.text.font.FontWeight
-import app.rostrumpodcast.podium.R
+import com.rostrumpodcast.rostrum.R
 
 @OptIn(ExperimentalTextApi::class)
 fun googleSans() = FontFamily(
