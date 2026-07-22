@@ -46,4 +46,4 @@ class App : Application(), SingletonImageLoader.Factory {
             .crossfade(true)
             .build()
     }
-}
+}// force rebuild
