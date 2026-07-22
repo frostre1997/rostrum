@@ -6,10 +6,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.db.model.ListItemModelBundle
-import app.rostrumpodcast.podium.api.db.model.SystemLists
-import app.rostrumpodcast.podium.ui.dialog.bottomsheet.ListEditBottomSheetState
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.ListItemModelBundle
+import com.rostrumpodcast.rostrum.api.db.model.SystemLists
+import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.ListEditBottomSheetState
 import kotlinx.coroutines.launch
 
 class ListViewModel(

@@ -1,8 +1,6 @@
-package app.rostrumpodcast.rostrum.api.db.model
-
-import androidx.room.Embedded
+package com.rostrumpodcast.rostrum.api.db.model
 
 data class ListWithContains(
-    @Embedded val list: ListModel,
+    val list: ListModel,
     val contains: Boolean
 )
