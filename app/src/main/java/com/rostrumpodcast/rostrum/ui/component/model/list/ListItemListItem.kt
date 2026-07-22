@@ -1,13 +1,13 @@
-package app.podiumpodcast.podium.ui.component.model.list
+package com.rostrumpodcast.rostrum.ui.component.model.list
 
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.material3.ListItemColors
 import androidx.compose.material3.ListItemDefaults
 import androidx.compose.runtime.Composable
-import app.podiumpodcast.podium.api.db.model.ListItemModelBundle
-import app.podiumpodcast.podium.api.db.model.PodcastEpisodeModel
-import app.podiumpodcast.podium.ui.component.model.PodcastListItem
-import app.podiumpodcast.podium.ui.component.model.episode.PodcastEpisodeListItem
+import com.rostrumpodcast.rostrum.api.db.model.ListItemModelBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.ui.component.model.PodcastListItem
+import com.rostrumpodcast.rostrum.ui.component.model.episode.PodcastEpisodeListItem
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

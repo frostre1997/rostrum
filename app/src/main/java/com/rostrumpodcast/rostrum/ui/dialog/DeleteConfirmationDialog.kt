@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.dialog
+package com.rostrumpodcast.rostrum.ui.dialog
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Warning
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import app.podiumpodcast.podium.R
+import com.rostrumpodcast.rostrum.R
 
 @Composable
 fun DeleteConfirmationDialog(

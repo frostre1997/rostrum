@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.view.model
+package com.rostrumpodcast.rostrum.ui.view.model
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandIn
@@ -45,15 +45,15 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import app.rostrumpodcast.podium.R
-import app.rostrumpodcast.podium.api.db.model.PodcastModel
-import app.rostrumpodcast.podium.ui.component.common.BackButton
-import app.rostrumpodcast.podium.ui.component.settings.SettingsHeader
-import app.rostrumpodcast.podium.ui.component.settings.SettingsListItem
-import app.rostrumpodcast.podium.ui.component.settings.SettingsSecondsSliderListItem
-import app.rostrumpodcast.podium.ui.component.settings.SettingsSwitchListItem
-import app.rostrumpodcast.podium.ui.helper.LocalDatabase
-import app.rostrumpodcast.podium.ui.vm.PodcastSettingsViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.ui.component.common.BackButton
+import com.rostrumpodcast.rostrum.ui.component.settings.SettingsHeader
+import com.rostrumpodcast.rostrum.ui.component.settings.SettingsListItem
+import com.rostrumpodcast.rostrum.ui.component.settings.SettingsSecondsSliderListItem
+import com.rostrumpodcast.rostrum.ui.component.settings.SettingsSwitchListItem
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.vm.PodcastSettingsViewModel
 import kotlinx.coroutines.delay
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)

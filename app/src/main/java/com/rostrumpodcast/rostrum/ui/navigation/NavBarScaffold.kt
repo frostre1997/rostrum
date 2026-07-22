@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.navigation
+package com.rostrumpodcast.rostrum.ui.navigation
 
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
@@ -12,7 +12,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.navigation3.runtime.NavKey
-import app.podiumpodcast.podium.ui.helper.LocalSettingsRepository
+import com.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
 
 @Composable
 fun NavBarScaffold(

@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.component.model.list
+package com.rostrumpodcast.rostrum.ui.component.model.list
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -19,8 +19,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import app.podiumpodcast.podium.api.db.model.ListModel
-import app.podiumpodcast.podium.ui.component.library.LibraryItem
+import com.rostrumpodcast.rostrum.api.db.model.ListModel
+import com.rostrumpodcast.rostrum.ui.component.library.LibraryItem
 import coil3.compose.AsyncImage
 
 @Composable

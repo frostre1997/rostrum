@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.theme
+package com.rostrumpodcast.rostrum.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -35,7 +35,7 @@ private val LightColorScheme = lightColorScheme(
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable
-fun PodiumTheme(
+fun RostrumTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

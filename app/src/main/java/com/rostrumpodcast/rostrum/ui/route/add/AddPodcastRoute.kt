@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.route.add
+package com.rostrumpodcast.rostrum.ui.route.add
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
@@ -10,9 +10,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.ui.component.common.BackButton
-import app.podiumpodcast.podium.ui.view.model.AddPodcastView
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.component.common.BackButton
+import com.rostrumpodcast.rostrum.ui.view.model.AddPodcastView
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable

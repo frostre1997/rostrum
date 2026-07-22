@@ -1,13 +1,13 @@
-package app.rostrumpodcast.podium.ui.vm.library
+package com.rostrumpodcast.rostrum.ui.vm.library
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.db.model.PodcastEpisodeBundle
-import app.rostrumpodcast.podium.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
 import kotlinx.coroutines.flow.Flow
 
 interface LibrarySearchState {

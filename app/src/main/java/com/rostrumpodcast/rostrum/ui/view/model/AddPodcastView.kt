@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.view.model
+package com.rostrumpodcast.rostrum.ui.view.model
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.background
@@ -50,12 +50,12 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import app.rostrumpodcast.podium.R
-import app.rostrumpodcast.podium.ui.dialog.ShimmerAsyncImage
-import app.rostrumpodcast.podium.ui.helper.LocalDatabase
-import app.rostrumpodcast.podium.ui.theme.Typography
-import app.rostrumpodcast.podium.ui.vm.AddPodcastState
-import app.rostrumpodcast.podium.ui.vm.AddPodcastViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.dialog.ShimmerAsyncImage
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.theme.Typography
+import com.rostrumpodcast.rostrum.ui.vm.AddPodcastState
+import com.rostrumpodcast.rostrum.ui.vm.AddPodcastViewModel
 import coil3.compose.AsyncImagePainter
 import coil3.toBitmap
 import com.materialkolor.DynamicMaterialExpressiveTheme

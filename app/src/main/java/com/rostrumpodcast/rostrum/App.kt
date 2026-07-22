@@ -1,10 +1,10 @@
-package app.rostrumpodcast.podium
+package com.rostrumpodcast.rostrum
 
 import android.app.Application
 import android.content.Context
-import app.rostrumpodcast.podium.background.worker.NightlyWorker
-import app.rostrumpodcast.podium.background.worker.PeriodicPodcastUpdateWorker
-import app.rostrumpodcast.podium.background.worker.sync.PartialSynchronizationWorker
+import com.rostrumpodcast.rostrum.background.worker.NightlyWorker
+import com.rostrumpodcast.rostrum.background.worker.PeriodicPodcastUpdateWorker
+import com.rostrumpodcast.rostrum.background.worker.sync.PartialSynchronizationWorker
 import coil3.ImageLoader
 import coil3.SingletonImageLoader
 import coil3.request.crossfade

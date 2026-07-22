@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.dialog.bottomsheet.media
+package com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.media
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.layout.Arrangement
@@ -29,9 +29,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.ui.theme.Typography
-import app.podiumpodcast.podium.ui.vm.MediaPlayerViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.theme.Typography
+import com.rostrumpodcast.rostrum.ui.vm.MediaPlayerViewModel
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable

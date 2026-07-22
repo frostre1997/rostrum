@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.route.content
+package com.rostrumpodcast.rostrum.ui.route.content
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding
@@ -19,12 +19,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.paging.compose.collectAsLazyPagingItems
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.ui.component.common.BackButton
-import app.podiumpodcast.podium.ui.component.media.FloatingMediaPlayerSpacer
-import app.podiumpodcast.podium.ui.component.model.SubscriptionCard
-import app.podiumpodcast.podium.ui.helper.LocalDatabase
-import app.podiumpodcast.podium.ui.vm.home.SubscriptionsViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.component.common.BackButton
+import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerSpacer
+import com.rostrumpodcast.rostrum.ui.component.model.SubscriptionCard
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.vm.home.SubscriptionsViewModel
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable

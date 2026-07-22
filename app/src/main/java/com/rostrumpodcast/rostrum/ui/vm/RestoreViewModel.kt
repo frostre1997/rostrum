@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.vm
+package com.rostrumpodcast.rostrum.ui.vm
 
 import android.app.Activity
 import android.content.Context
@@ -8,8 +8,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.window.embedding.ActivityFilter
-import app.rostrumpodcast.podium.AppActivity
-import app.rostrumpodcast.podium.manager.DatabaseManager
+import com.rostrumpodcast.rostrum.AppActivity
+import com.rostrumpodcast.rostrum.manager.DatabaseManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.route.home
+package com.rostrumpodcast.rostrum.ui.route.home
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -50,24 +50,24 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.paging.compose.collectAsLazyPagingItems
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.api.db.model.PodcastEpisodeModel
-import app.podiumpodcast.podium.ui.component.layout.InfoLayout
-import app.podiumpodcast.podium.ui.component.layout.Section
-import app.podiumpodcast.podium.ui.component.layout.SectionCarousel
-import app.podiumpodcast.podium.ui.component.media.FloatingMediaPlayerBreakpoint
-import app.podiumpodcast.podium.ui.component.media.FloatingMediaPlayerSpacer
-import app.podiumpodcast.podium.ui.component.media.LocalFloatingMediaPlayerHeight
-import app.podiumpodcast.podium.ui.component.model.PodcastCard
-import app.podiumpodcast.podium.ui.component.model.SubscriptionCard
-import app.podiumpodcast.podium.ui.component.model.episode.PodcastEpisodeListItem
-import app.podiumpodcast.podium.ui.helper.LocalDatabase
-import app.podiumpodcast.podium.ui.helper.LocalSettingsRepository
-import app.podiumpodcast.podium.ui.helper.PagerScaffold
-import app.podiumpodcast.podium.ui.vm.home.ContinuePlayingViewModel
-import app.podiumpodcast.podium.ui.vm.home.LocallyAvailableViewModel
-import app.podiumpodcast.podium.ui.vm.home.NewEpisodesViewModel
-import app.podiumpodcast.podium.ui.vm.home.SubscriptionsViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.ui.component.layout.InfoLayout
+import com.rostrumpodcast.rostrum.ui.component.layout.Section
+import com.rostrumpodcast.rostrum.ui.component.layout.SectionCarousel
+import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerBreakpoint
+import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerSpacer
+import com.rostrumpodcast.rostrum.ui.component.media.LocalFloatingMediaPlayerHeight
+import com.rostrumpodcast.rostrum.ui.component.model.PodcastCard
+import com.rostrumpodcast.rostrum.ui.component.model.SubscriptionCard
+import com.rostrumpodcast.rostrum.ui.component.model.episode.PodcastEpisodeListItem
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
+import com.rostrumpodcast.rostrum.ui.helper.PagerScaffold
+import com.rostrumpodcast.rostrum.ui.vm.home.ContinuePlayingViewModel
+import com.rostrumpodcast.rostrum.ui.vm.home.LocallyAvailableViewModel
+import com.rostrumpodcast.rostrum.ui.vm.home.NewEpisodesViewModel
+import com.rostrumpodcast.rostrum.ui.vm.home.SubscriptionsViewModel
 
 @OptIn(
     ExperimentalMaterial3Api::class, ExperimentalMaterial3AdaptiveApi::class,

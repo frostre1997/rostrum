@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.route.discover
+package com.rostrumpodcast.rostrum.ui.route.discover
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.layout.Box
@@ -36,20 +36,20 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.ui.component.common.PoweredByApplepodcastBadge
-import app.podiumpodcast.podium.ui.component.layout.ErrorLayout
-import app.podiumpodcast.podium.ui.component.layout.LoadingLayout
-import app.podiumpodcast.podium.ui.component.media.FloatingMediaPlayerSpacer
-import app.podiumpodcast.podium.ui.component.media.LocalFloatingMediaPlayerHeight
-import app.podiumpodcast.podium.ui.component.model.PodcastPreviewCard
-import app.podiumpodcast.podium.ui.dialog.CountryCodeSelectorDialog
-import app.podiumpodcast.podium.ui.dialog.bottomsheet.PodcastPreviewBottomSheet
-import app.podiumpodcast.podium.ui.helper.LocalSettingsRepository
-import app.podiumpodcast.podium.ui.vm.discover.DiscoverViewModel
-import app.podiumpodcast.podium.ui.vm.discover.State
-import app.podiumpodcast.podium.ui.vm.discover.Topics
-import app.podiumpodcast.podium.utils.getCountryCode
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.component.common.PoweredByApplepodcastBadge
+import com.rostrumpodcast.rostrum.ui.component.layout.ErrorLayout
+import com.rostrumpodcast.rostrum.ui.component.layout.LoadingLayout
+import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerSpacer
+import com.rostrumpodcast.rostrum.ui.component.media.LocalFloatingMediaPlayerHeight
+import com.rostrumpodcast.rostrum.ui.component.model.PodcastPreviewCard
+import com.rostrumpodcast.rostrum.ui.dialog.CountryCodeSelectorDialog
+import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.PodcastPreviewBottomSheet
+import com.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
+import com.rostrumpodcast.rostrum.ui.vm.discover.DiscoverViewModel
+import com.rostrumpodcast.rostrum.ui.vm.discover.State
+import com.rostrumpodcast.rostrum.ui.vm.discover.Topics
+import com.rostrumpodcast.rostrum.utils.getCountryCode
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)

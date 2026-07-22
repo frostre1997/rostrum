@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium
+package com.rostrumpodcast.rostrum
 
 import android.content.ComponentName
 import android.content.Context

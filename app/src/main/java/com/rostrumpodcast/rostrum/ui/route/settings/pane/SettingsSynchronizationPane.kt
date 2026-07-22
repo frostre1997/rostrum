@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.route.settings.pane
+package com.rostrumpodcast.rostrum.ui.route.settings.pane
 
 import android.annotation.SuppressLint
 import androidx.compose.animation.AnimatedContent
@@ -54,20 +54,20 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.media3.common.util.UnstableApi
-import app.rostrumpodcast.podium.R
-import app.rostrumpodcast.podium.background.worker.sync.FullSynchronizationWorker
-import app.rostrumpodcast.podium.background.worker.sync.PartialSynchronizationWorker
-import app.rostrumpodcast.podium.manager.SyncManager
-import app.rostrumpodcast.podium.ui.component.common.ExperimentalBadge
-import app.rostrumpodcast.podium.ui.component.settings.SettingsListItem
-import app.rostrumpodcast.podium.ui.component.settings.SettingsSwitchListItem
-import app.rostrumpodcast.podium.ui.formatPubDate
-import app.rostrumpodcast.podium.ui.helper.LocalDatabase
-import app.rostrumpodcast.podium.ui.helper.LocalSettingsRepository
-import app.rostrumpodcast.podium.ui.route.settings.SettingsPaneKey
-import app.rostrumpodcast.podium.ui.vm.LoginState
-import app.rostrumpodcast.podium.ui.vm.SettingsSynchronizationViewModel
-import app.rostrumpodcast.podium.ui.vm.SettingsViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.background.worker.sync.FullSynchronizationWorker
+import com.rostrumpodcast.rostrum.background.worker.sync.PartialSynchronizationWorker
+import com.rostrumpodcast.rostrum.manager.SyncManager
+import com.rostrumpodcast.rostrum.ui.component.common.ExperimentalBadge
+import com.rostrumpodcast.rostrum.ui.component.settings.SettingsListItem
+import com.rostrumpodcast.rostrum.ui.component.settings.SettingsSwitchListItem
+import com.rostrumpodcast.rostrum.ui.formatPubDate
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
+import com.rostrumpodcast.rostrum.ui.route.settings.SettingsPaneKey
+import com.rostrumpodcast.rostrum.ui.vm.LoginState
+import com.rostrumpodcast.rostrum.ui.vm.SettingsSynchronizationViewModel
+import com.rostrumpodcast.rostrum.ui.vm.SettingsViewModel
 import kotlinx.coroutines.launch
 import kotlinx.serialization.Serializable
 

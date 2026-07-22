@@ -1,9 +1,9 @@
-package app.rostrumpodcast.podium.utils.rss
+package com.rostrumpodcast.rostrum.utils.rss
 
-import app.rostrumpodcast.podium.api.db.model.PodcastEpisodeModel
-import app.rostrumpodcast.podium.api.db.model.PodcastModel
-import app.rostrumpodcast.podium.ui.parseItunesDuration
-import app.rostrumpodcast.podium.ui.parsePubDate
+import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import app.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import app.rostrumpodcast.rostrum.ui.parseItunesDuration
+import app.rostrumpodcast.rostrum.ui.parsePubDate
 import com.prof18.rssparser.model.RssChannel
 import com.prof18.rssparser.model.RssItem
 

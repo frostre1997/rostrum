@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.utils
+package com.rostrumpodcast.rostrum.utils
 
 import kotlinx.serialization.json.Json
 

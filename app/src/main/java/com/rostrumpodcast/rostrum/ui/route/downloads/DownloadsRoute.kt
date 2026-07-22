@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.route.downloads
+package com.rostrumpodcast.rostrum.ui.route.downloads
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
@@ -29,19 +29,19 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.paging.compose.collectAsLazyPagingItems
 import androidx.paging.compose.itemKey
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.api.db.model.PodcastEpisodeBundle
-import app.podiumpodcast.podium.api.db.model.PodcastEpisodeDownloadState
-import app.podiumpodcast.podium.api.db.model.PodcastEpisodeModel
-import app.podiumpodcast.podium.ui.component.common.BackButton
-import app.podiumpodcast.podium.ui.component.layout.InfoLayout
-import app.podiumpodcast.podium.ui.component.media.FloatingMediaPlayerSpacer
-import app.podiumpodcast.podium.ui.component.model.episode.PodcastEpisodeListItem
-import app.podiumpodcast.podium.ui.formatFileSize
-import app.podiumpodcast.podium.ui.helper.LocalDatabase
-import app.podiumpodcast.podium.ui.helper.PagerScaffold
-import app.podiumpodcast.podium.ui.theme.Typography
-import app.podiumpodcast.podium.ui.vm.DownloadsViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadState
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.ui.component.common.BackButton
+import com.rostrumpodcast.rostrum.ui.component.layout.InfoLayout
+import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerSpacer
+import com.rostrumpodcast.rostrum.ui.component.model.episode.PodcastEpisodeListItem
+import com.rostrumpodcast.rostrum.ui.formatFileSize
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.helper.PagerScaffold
+import com.rostrumpodcast.rostrum.ui.theme.Typography
+import com.rostrumpodcast.rostrum.ui.vm.DownloadsViewModel
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable

@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.route.restore
+package com.rostrumpodcast.rostrum.ui.route.restore
 
 import android.net.Uri
 import androidx.activity.compose.LocalActivity
@@ -37,14 +37,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import app.rostrumpodcast.podium.R
-import app.rostrumpodcast.podium.ui.component.common.BackButton
-import app.rostrumpodcast.podium.ui.component.layout.ErrorLayout
-import app.rostrumpodcast.podium.ui.component.layout.InfoLayout
-import app.rostrumpodcast.podium.ui.component.layout.LoadingLayout
-import app.rostrumpodcast.podium.ui.helper.LocalDatabase
-import app.rostrumpodcast.podium.ui.vm.RestoreViewModel
-import app.rostrumpodcast.podium.ui.vm.State
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.component.common.BackButton
+import com.rostrumpodcast.rostrum.ui.component.layout.ErrorLayout
+import com.rostrumpodcast.rostrum.ui.component.layout.InfoLayout
+import com.rostrumpodcast.rostrum.ui.component.layout.LoadingLayout
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.vm.RestoreViewModel
+import com.rostrumpodcast.rostrum.ui.vm.State
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable

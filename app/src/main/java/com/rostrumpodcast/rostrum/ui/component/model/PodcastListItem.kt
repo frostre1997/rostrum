@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.component.model
+package com.rostrumpodcast.rostrum.ui.component.model
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -19,9 +19,9 @@ import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.fromHtml
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.api.db.model.PodcastModel
-import app.podiumpodcast.podium.ui.theme.Typography
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.ui.theme.Typography
 import coil3.compose.AsyncImage
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

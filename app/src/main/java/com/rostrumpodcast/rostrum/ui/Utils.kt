@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui
+package com.rostrumpodcast.rostrum.ui
 
 import android.content.Context
 import android.content.ContextWrapper
@@ -12,7 +12,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.text.isDigitsOnly
-import app.rostrumpodcast.podium.R
+import com.rostrumpodcast.rostrum.R
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.time.Duration

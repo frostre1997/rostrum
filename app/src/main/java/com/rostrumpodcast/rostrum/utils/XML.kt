@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.utils
+package com.rostrumpodcast.rostrum.utils
 
 import nl.adaptivity.xmlutil.ExperimentalXmlUtilApi
 import nl.adaptivity.xmlutil.serialization.DefaultXmlSerializationPolicy

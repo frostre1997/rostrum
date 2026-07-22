@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.vm
+package com.rostrumpodcast.rostrum.ui.vm
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -6,16 +6,16 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import app.rostrumpodcast.podium.api.apple.ApplePodcastClient
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.db.model.PodcastEpisodeModel
-import app.rostrumpodcast.podium.api.db.model.PodcastModel
-import app.rostrumpodcast.podium.api.rss.FetchPodcastClient
-import app.rostrumpodcast.podium.api.rss.FetchPodcastClientResult
-import app.rostrumpodcast.podium.manager.AddPodcastResult
-import app.rostrumpodcast.podium.manager.PodcastManager
-import app.rostrumpodcast.podium.utils.rss.toPodcast
-import app.rostrumpodcast.podium.utils.rss.toPodcastEpisode
+import com.rostrumpodcast.rostrum.api.apple.ApplePodcastClient
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.api.rss.FetchPodcastClient
+import com.rostrumpodcast.rostrum.api.rss.FetchPodcastClientResult
+import com.rostrumpodcast.rostrum.manager.AddPodcastResult
+import com.rostrumpodcast.rostrum.manager.PodcastManager
+import com.rostrumpodcast.rostrum.utils.rss.toPodcast
+import com.rostrumpodcast.rostrum.utils.rss.toPodcastEpisode
 import kotlinx.coroutines.launch
 
 interface AddPodcastState {

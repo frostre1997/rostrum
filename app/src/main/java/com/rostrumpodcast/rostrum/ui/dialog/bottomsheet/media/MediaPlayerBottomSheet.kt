@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.dialog.bottomsheet.media
+package com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.media
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.Animatable
@@ -75,15 +75,15 @@ import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.ui.component.common.SwitchableDynamicMaterialExpressiveTheme
-import app.podiumpodcast.podium.ui.custom.icons.Forward
-import app.podiumpodcast.podium.ui.dialog.ShimmerAsyncImage
-import app.podiumpodcast.podium.ui.formatPlayerTime
-import app.podiumpodcast.podium.ui.helper.LocalSettingsRepository
-import app.podiumpodcast.podium.ui.theme.Typography
-import app.podiumpodcast.podium.ui.vm.MediaPlayerViewModel
-import app.podiumpodcast.podium.ui.vm.SourceTypeState
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.component.common.SwitchableDynamicMaterialExpressiveTheme
+import com.rostrumpodcast.rostrum.ui.custom.icons.Forward
+import com.rostrumpodcast.rostrum.ui.dialog.ShimmerAsyncImage
+import com.rostrumpodcast.rostrum.ui.formatPlayerTime
+import com.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
+import com.rostrumpodcast.rostrum.ui.theme.Typography
+import com.rostrumpodcast.rostrum.ui.vm.MediaPlayerViewModel
+import com.rostrumpodcast.rostrum.ui.vm.SourceTypeState
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.util.Locale

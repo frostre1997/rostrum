@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.vm.list
+package com.rostrumpodcast.rostrum.ui.vm.list
 
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.mutableStateOf

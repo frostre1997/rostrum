@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.dialog.bottomsheet.podcast
+package com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.podcast
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
@@ -31,10 +31,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.api.db.dao.PodcastEpisodesOrder
-import app.podiumpodcast.podium.api.db.dao.PodcastEpisodesOrderBy
-import app.podiumpodcast.podium.ui.component.model.podcast.podcastearchFilterOrderBarState
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodesOrder
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodesOrderBy
+import com.rostrumpodcast.rostrum.ui.component.model.podcast.podcastearchFilterOrderBarState
 import kotlinx.coroutines.launch
 
 private enum class OrderByItems(

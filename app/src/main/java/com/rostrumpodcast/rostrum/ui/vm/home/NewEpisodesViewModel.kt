@@ -1,12 +1,12 @@
-package app.rostrumpodcast.podium.ui.vm.home
+package com.rostrumpodcast.rostrum.ui.vm.home
 
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
 import kotlinx.coroutines.launch
 
 class NewEpisodesViewModel(

@@ -1,11 +1,11 @@
-package app.podiumpodcast.podium.ui.helper
+package com.rostrumpodcast.rostrum.ui.helper
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.paging.compose.LazyPagingItems
-import app.podiumpodcast.podium.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
 
 @Composable
 fun PagerScaffold(

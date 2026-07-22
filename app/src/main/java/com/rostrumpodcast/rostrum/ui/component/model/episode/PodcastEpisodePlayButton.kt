@@ -26,7 +26,7 @@ import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
 import app.rostrumpodcast.rostrum.ui.component.button.StateDisplayingToggleButton
 import app.rostrumpodcast.rostrum.ui.component.common.ButtonLabelWithIconInset
 import app.rostrumpodcast.rostrum.ui.formatEpisodePlayTime
-import app.podiumpodcast.podium.ui.vm.MediaPlayerViewModel
+import com.rostrumpodcast.rostrum.ui.vm.MediaPlayerViewModel
 
 private enum class ButtonState {
     PLAYING,

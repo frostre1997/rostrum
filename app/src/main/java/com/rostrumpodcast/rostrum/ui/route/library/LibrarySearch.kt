@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.route.library
+package com.rostrumpodcast.rostrum.ui.route.library
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.layout.Arrangement
@@ -37,15 +37,15 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.paging.compose.collectAsLazyPagingItems
 import androidx.paging.compose.itemKey
-import app.rostrumpodcast.podium.R
-import app.rostrumpodcast.podium.api.db.model.PodcastEpisodeModel
-import app.rostrumpodcast.podium.ui.component.common.CommonSearchInputField
-import app.rostrumpodcast.podium.ui.component.layout.InfoLayout
-import app.rostrumpodcast.podium.ui.component.model.PodcastCard
-import app.rostrumpodcast.podium.ui.component.model.episode.PodcastEpisodeListItem
-import app.rostrumpodcast.podium.ui.helper.LocalDatabase
-import app.rostrumpodcast.podium.ui.vm.library.LibrarySearchState
-import app.rostrumpodcast.podium.ui.vm.library.LibrarySearchViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.ui.component.common.CommonSearchInputField
+import com.rostrumpodcast.rostrum.ui.component.layout.InfoLayout
+import com.rostrumpodcast.rostrum.ui.component.model.PodcastCard
+import com.rostrumpodcast.rostrum.ui.component.model.episode.PodcastEpisodeListItem
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.vm.library.LibrarySearchState
+import com.rostrumpodcast.rostrum.ui.vm.library.LibrarySearchViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)

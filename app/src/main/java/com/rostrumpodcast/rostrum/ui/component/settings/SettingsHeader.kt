@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.component.settings
+package com.rostrumpodcast.rostrum.ui.component.settings
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
@@ -8,7 +8,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import app.podiumpodcast.podium.ui.theme.Typography
+import com.rostrumpodcast.rostrum.ui.theme.Typography
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

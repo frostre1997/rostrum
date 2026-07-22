@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.view.model
+package com.rostrumpodcast.rostrum.ui.view.model
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
@@ -64,23 +64,23 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import app.rostrumpodcast.podium.R
-import app.rostrumpodcast.podium.api.db.model.PodcastEpisodeBundle
-import app.rostrumpodcast.podium.api.db.model.PodcastModel
-import app.rostrumpodcast.podium.ui.component.DetailsList
-import app.rostrumpodcast.podium.ui.component.DetailsListItemModel
-import app.rostrumpodcast.podium.ui.component.common.BackButton
-import app.rostrumpodcast.podium.ui.component.common.ExpandableText
-import app.rostrumpodcast.podium.ui.component.media.FloatingMediaPlayerSpacer
-import app.rostrumpodcast.podium.ui.component.model.ContentFavoriteButton
-import app.rostrumpodcast.podium.ui.component.model.ContentSaveToListButton
-import app.rostrumpodcast.podium.ui.component.model.episode.PodcastEpisodeDownloadButton
-import app.rostrumpodcast.podium.ui.component.model.episode.PodcastEpisodeMarkAsPlayedButton
-import app.rostrumpodcast.podium.ui.component.model.episode.PodcastEpisodePlayButton
-import app.rostrumpodcast.podium.ui.dialog.ShimmerAsyncImage
-import app.rostrumpodcast.podium.ui.formatEpisodePlayTime
-import app.rostrumpodcast.podium.ui.formatPubDate
-import app.rostrumpodcast.podium.ui.theme.Typography
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.ui.component.DetailsList
+import com.rostrumpodcast.rostrum.ui.component.DetailsListItemModel
+import com.rostrumpodcast.rostrum.ui.component.common.BackButton
+import com.rostrumpodcast.rostrum.ui.component.common.ExpandableText
+import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerSpacer
+import com.rostrumpodcast.rostrum.ui.component.model.ContentFavoriteButton
+import com.rostrumpodcast.rostrum.ui.component.model.ContentSaveToListButton
+import com.rostrumpodcast.rostrum.ui.component.model.episode.PodcastEpisodeDownloadButton
+import com.rostrumpodcast.rostrum.ui.component.model.episode.PodcastEpisodeMarkAsPlayedButton
+import com.rostrumpodcast.rostrum.ui.component.model.episode.PodcastEpisodePlayButton
+import com.rostrumpodcast.rostrum.ui.dialog.ShimmerAsyncImage
+import com.rostrumpodcast.rostrum.ui.formatEpisodePlayTime
+import com.rostrumpodcast.rostrum.ui.formatPubDate
+import com.rostrumpodcast.rostrum.ui.theme.Typography
 import dev.chrisbanes.haze.hazeEffect
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class, ExperimentalMaterial3Api::class)

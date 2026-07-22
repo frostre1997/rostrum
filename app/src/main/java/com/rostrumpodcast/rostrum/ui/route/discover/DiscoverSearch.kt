@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.route.discover
+package com.rostrumpodcast.rostrum.ui.route.discover
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.layout.Arrangement
@@ -36,17 +36,17 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.ui.component.common.CommonSearchInputField
-import app.podiumpodcast.podium.ui.component.common.PoweredByApplepodcastBadge
-import app.podiumpodcast.podium.ui.component.layout.ErrorLayout
-import app.podiumpodcast.podium.ui.component.layout.InfoLayout
-import app.podiumpodcast.podium.ui.component.layout.LoadingLayout
-import app.podiumpodcast.podium.ui.component.model.PodcastPreviewCard
-import app.podiumpodcast.podium.ui.dialog.bottomsheet.PodcastPreviewBottomSheet
-import app.podiumpodcast.podium.ui.helper.LocalDatabase
-import app.podiumpodcast.podium.ui.vm.discover.DiscoverSearchState
-import app.podiumpodcast.podium.ui.vm.discover.DiscoverSearchViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.component.common.CommonSearchInputField
+import com.rostrumpodcast.rostrum.ui.component.common.PoweredByApplepodcastBadge
+import com.rostrumpodcast.rostrum.ui.component.layout.ErrorLayout
+import com.rostrumpodcast.rostrum.ui.component.layout.InfoLayout
+import com.rostrumpodcast.rostrum.ui.component.layout.LoadingLayout
+import com.rostrumpodcast.rostrum.ui.component.model.PodcastPreviewCard
+import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.PodcastPreviewBottomSheet
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.vm.discover.DiscoverSearchState
+import com.rostrumpodcast.rostrum.ui.vm.discover.DiscoverSearchViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)

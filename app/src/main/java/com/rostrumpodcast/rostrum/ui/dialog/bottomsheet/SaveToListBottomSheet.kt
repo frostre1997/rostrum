@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.dialog.bottomsheet
+package com.rostrumpodcast.rostrum.ui.dialog.bottomsheet
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
@@ -18,9 +18,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.paging.compose.collectAsLazyPagingItems
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.ui.helper.LocalDatabase
-import app.podiumpodcast.podium.ui.vm.list.SaveToListBottomSheetViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.vm.list.SaveToListBottomSheetViewModel
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable

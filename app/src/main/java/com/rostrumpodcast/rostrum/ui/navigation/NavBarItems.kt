@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.navigation
+package com.rostrumpodcast.rostrum.ui.navigation
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Explore
@@ -6,7 +6,7 @@ import androidx.compose.material.icons.rounded.Home
 import androidx.compose.material.icons.rounded.School
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.navigation3.runtime.NavKey
-import app.podiumpodcast.podium.R
+import com.rostrumpodcast.rostrum.R
 import kotlinx.serialization.Serializable
 
 @Serializable

@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.component.model
+package com.rostrumpodcast.rostrum.ui.component.model
 
 import androidx.compose.foundation.layout.offset
 import androidx.compose.material3.Badge
@@ -7,7 +7,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import app.podiumpodcast.podium.api.db.model.podcastubscriptionBundle
+import com.rostrumpodcast.rostrum.api.db.model.podcastubscriptionBundle
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

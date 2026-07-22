@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.vm
+package com.rostrumpodcast.rostrum.ui.vm
 
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material3.SnackbarHostState
@@ -6,8 +6,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.api.db.model.PodcastHistoryBundle
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.PodcastHistoryBundle
 import kotlinx.coroutines.launch
 import java.time.DayOfWeek
 import java.time.LocalDate

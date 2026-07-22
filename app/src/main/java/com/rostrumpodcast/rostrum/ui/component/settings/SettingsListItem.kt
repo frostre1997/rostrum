@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.component.settings
+package com.rostrumpodcast.rostrum.ui.component.settings
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding

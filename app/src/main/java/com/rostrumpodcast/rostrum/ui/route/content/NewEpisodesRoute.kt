@@ -1,4 +1,4 @@
-package app.podiumpodcast.podium.ui.route.content
+package com.rostrumpodcast.rostrum.ui.route.content
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
@@ -28,19 +28,19 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.paging.compose.collectAsLazyPagingItems
 import androidx.paging.compose.itemKey
-import app.podiumpodcast.podium.R
-import app.podiumpodcast.podium.api.db.model.PodcastEpisodeModel
-import app.podiumpodcast.podium.ui.component.PodiumSnackbarHost
-import app.podiumpodcast.podium.ui.component.common.BackButton
-import app.podiumpodcast.podium.ui.component.common.swipeable.SwipeableItem
-import app.podiumpodcast.podium.ui.component.common.swipeable.SwipeableItemActionResult
-import app.podiumpodcast.podium.ui.component.common.swipeable.SwipeableItemActions
-import app.podiumpodcast.podium.ui.component.layout.InfoLayout
-import app.podiumpodcast.podium.ui.component.media.FloatingMediaPlayerSpacer
-import app.podiumpodcast.podium.ui.component.model.episode.PodcastEpisodeListItem
-import app.podiumpodcast.podium.ui.helper.LocalDatabase
-import app.podiumpodcast.podium.ui.helper.PagerScaffold
-import app.podiumpodcast.podium.ui.vm.home.NewEpisodesViewModel
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.ui.component.RostrumSnackbarHost
+import com.rostrumpodcast.rostrum.ui.component.common.BackButton
+import com.rostrumpodcast.rostrum.ui.component.common.swipeable.SwipeableItem
+import com.rostrumpodcast.rostrum.ui.component.common.swipeable.SwipeableItemActionResult
+import com.rostrumpodcast.rostrum.ui.component.common.swipeable.SwipeableItemActions
+import com.rostrumpodcast.rostrum.ui.component.layout.InfoLayout
+import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerSpacer
+import com.rostrumpodcast.rostrum.ui.component.model.episode.PodcastEpisodeListItem
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.ui.helper.PagerScaffold
+import com.rostrumpodcast.rostrum.ui.vm.home.NewEpisodesViewModel
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable
@@ -62,7 +62,7 @@ fun NewEpisodesRoute(
     Scaffold(
         Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         snackbarHost = {
-            PodiumSnackbarHost(snackbarHostState)
+            RostrumSnackbarHost(snackbarHostState)
         },
         topBar = {
             CenterAlignedTopAppBar(

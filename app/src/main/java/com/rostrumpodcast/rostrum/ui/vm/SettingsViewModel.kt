@@ -1,4 +1,4 @@
-package app.rostrumpodcast.podium.ui.vm
+package com.rostrumpodcast.rostrum.ui.vm
 
 import android.content.Context
 import android.text.format.Formatter
@@ -7,14 +7,14 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import app.rostrumpodcast.podium.R
-import app.rostrumpodcast.podium.SettingsRepository
-import app.rostrumpodcast.podium.api.db.AppDatabase
-import app.rostrumpodcast.podium.background.worker.PeriodicPodcastUpdateWorker
-import app.rostrumpodcast.podium.manager.DatabaseManager
-import app.rostrumpodcast.podium.manager.DownloadManager
-import app.rostrumpodcast.podium.manager.ExportManager
-import app.rostrumpodcast.podium.utils.shareFile
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.SettingsRepository
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.background.worker.PeriodicPodcastUpdateWorker
+import com.rostrumpodcast.rostrum.manager.DatabaseManager
+import com.rostrumpodcast.rostrum.manager.DownloadManager
+import com.rostrumpodcast.rostrum.manager.ExportManager
+import com.rostrumpodcast.rostrum.utils.shareFile
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
