@@ -10,8 +10,7 @@ plugins {
 
 android {
     namespace = "com.rostrumpodcast.rostrum"
-    compileSdk {
-        version = release(36)
+    compileSdk = 36
     }
 
     dependenciesInfo {
@@ -25,21 +24,21 @@ android {
         applicationId = "com.rostrumpodcast.rostrum"
         minSdk = 26
         targetSdk = 36
-        versionCode = "1"
+        versionCode = 1
         versionName = "0.1.0-alpha.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
- // signingConfigs {
-       // create("release") {
-           // storeFile = file("keystore.jks")
-           // storePassword = System.getenv("SIGNING_STORE_PASSWORD")
-           // keyAlias = System.getenv("SIGNING_KEY_ALIAS")
-           // keyPassword = System.getenv("SIGNING_KEY_PASSWORD")
+     /*
+     signingConfigs {
+         create("release") {
+             storeFile = file("keystore.jks")
+             storePassword = System.getenv("SIGNING_STORE_PASSWORD")
+             keyAlias = System.getenv("SIGNING_KEY_ALIAS")
+             keyPassword = System.getenv("SIGNING_KEY_PASSWORD")
         }
     }
-
+   */
     buildTypes {
         release {
             isMinifyEnabled = true
