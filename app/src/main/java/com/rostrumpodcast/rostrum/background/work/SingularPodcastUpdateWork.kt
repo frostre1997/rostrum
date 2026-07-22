@@ -1,13 +1,13 @@
-package app.rostrumpodcast.rostrum.background.work
+package com.rostrumpodcast.rostrum.background.work
 
 import android.content.Context
-import app.rostrumpodcast.rostrum.api.db.AppDatabase
-import app.rostrumpodcast.rostrum.api.db.model.PodcastModel
-import app.rostrumpodcast.rostrum.api.rss.FetchPodcastClient
-import app.rostrumpodcast.rostrum.api.rss.FetchPodcastClientResult
-import app.rostrumpodcast.rostrum.manager.DownloadManager
-import app.rostrumpodcast.rostrum.utils.rss.toPodcast
-import app.rostrumpodcast.rostrum.utils.rss.toPodcastEpisode
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.api.rss.FetchPodcastClient
+import com.rostrumpodcast.rostrum.api.rss.FetchPodcastClientResult
+import com.rostrumpodcast.rostrum.manager.DownloadManager
+import com.rostrumpodcast.rostrum.utils.rss.toPodcast
+import com.rostrumpodcast.rostrum.utils.rss.toPodcastEpisode
 
 class SingularPodcastUpdateWork(
     val context: Context,

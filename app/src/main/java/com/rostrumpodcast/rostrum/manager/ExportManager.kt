@@ -1,11 +1,11 @@
-package app.rostrumpodcast.rostrum.manager
+package com.rostrumpodcast.rostrum.manager
 
 import android.content.Context
 import android.text.format.DateFormat
-import app.rostrumpodcast.rostrum.api.db.AppDatabase
-import app.rostrumpodcast.rostrum.api.opml.model.OpmlBody
-import app.rostrumpodcast.rostrum.api.opml.model.OpmlFile
-import app.rostrumpodcast.rostrum.api.opml.model.OpmlHead
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.opml.model.OpmlBody
+import com.rostrumpodcast.rostrum.api.opml.model.OpmlFile
+import com.rostrumpodcast.rostrum.api.opml.model.OpmlHead
 import java.io.File
 import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter

@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.model.episode
+package com.rostrumpodcast.rostrum.ui.component.model.episode
 
 import android.util.Log
 import androidx.compose.animation.AnimatedContent
@@ -20,15 +20,15 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import app.rostrumpodcast.rostrum.R
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadState
-import app.rostrumpodcast.rostrum.manager.DownloadManager
-import app.rostrumpodcast.rostrum.ui.component.button.StateDisplayingIconToggleButton
-import app.rostrumpodcast.rostrum.ui.component.button.StateDisplayingToggleButton
-import app.rostrumpodcast.rostrum.ui.component.common.ButtonLabelWithIconInset
-import app.rostrumpodcast.rostrum.ui.dialog.bottomsheet.DownloadManagementBottomSheet
-import app.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadState
+import com.rostrumpodcast.rostrum.manager.DownloadManager
+import com.rostrumpodcast.rostrum.ui.component.button.StateDisplayingIconToggleButton
+import com.rostrumpodcast.rostrum.ui.component.button.StateDisplayingToggleButton
+import com.rostrumpodcast.rostrum.ui.component.common.ButtonLabelWithIconInset
+import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.DownloadManagementBottomSheet
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
 import kotlinx.coroutines.launch
 
 private val stateMap = mapOf(

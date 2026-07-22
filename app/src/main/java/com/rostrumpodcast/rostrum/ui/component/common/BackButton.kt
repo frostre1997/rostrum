@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.common
+package com.rostrumpodcast.rostrum.ui.component.common
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.ArrowBack
@@ -6,7 +6,7 @@ import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
-import app.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.R
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

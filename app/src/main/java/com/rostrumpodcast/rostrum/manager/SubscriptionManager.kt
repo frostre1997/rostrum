@@ -1,6 +1,6 @@
-package app.rostrumpodcast.rostrum.manager
+package com.rostrumpodcast.rostrum.manager
 
-import app.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
 
 class SubscriptionManager(
     val db: AppDatabase

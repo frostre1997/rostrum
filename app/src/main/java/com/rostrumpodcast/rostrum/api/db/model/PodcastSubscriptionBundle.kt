@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.db.model
+package com.rostrumpodcast.rostrum.api.db.model
 
 import android.net.Uri
 import androidx.media3.common.MediaItem

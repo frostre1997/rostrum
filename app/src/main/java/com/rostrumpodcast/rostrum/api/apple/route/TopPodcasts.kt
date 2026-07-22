@@ -1,10 +1,10 @@
-package app.rostrumpodcast.rostrum.api.apple.route
+package com.rostrumpodcast.rostrum.api.apple.route
 
-import app.rostrumpodcast.rostrum.api.apple.ApplePodcastClient
-import app.rostrumpodcast.rostrum.api.apple.model.Genre
-import app.rostrumpodcast.rostrum.api.apple.model.top.ToppodcastResponse
-import app.rostrumpodcast.rostrum.api.model.PodcastPreviewModel
-import app.rostrumpodcast.rostrum.utils.json
+import com.rostrumpodcast.rostrum.api.apple.ApplePodcastClient
+import com.rostrumpodcast.rostrum.api.apple.model.Genre
+import com.rostrumpodcast.rostrum.api.apple.model.top.ToppodcastResponse
+import com.rostrumpodcast.rostrum.api.model.PodcastPreviewModel
+import com.rostrumpodcast.rostrum.utils.json
 import io.ktor.client.call.body
 import io.ktor.client.request.get
 

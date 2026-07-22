@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.db.dao
+package com.rostrumpodcast.rostrum.api.db.dao
 
 import androidx.paging.PagingSource
 import androidx.room.Dao
@@ -7,7 +7,7 @@ import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Transaction
 import androidx.room.Update
-import app.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
 import kotlinx.coroutines.flow.Flow
 
 @Dao

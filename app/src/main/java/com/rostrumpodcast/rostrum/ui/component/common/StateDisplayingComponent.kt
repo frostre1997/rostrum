@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.common
+package com.rostrumpodcast.rostrum.ui.component.common
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.shape.GenericShape

@@ -1,14 +1,14 @@
-package app.rostrumpodcast.rostrum.api.sync.gpodder
+package com.rostrumpodcast.rostrum.api.sync.gpodder
 
 import android.os.Build
-import app.rostrumpodcast.rostrum.BuildConfig
-import app.rostrumpodcast.rostrum.api.sync.SyncClient
-import app.rostrumpodcast.rostrum.api.sync.gpodder.route.Auth
-import app.rostrumpodcast.rostrum.api.sync.gpodder.route.Device
-import app.rostrumpodcast.rostrum.api.sync.gpodder.route.EpisodeActions
-import app.rostrumpodcast.rostrum.api.sync.gpodder.route.Subscriptions
-import app.rostrumpodcast.rostrum.api.sync.model.result.SyncResult
-import app.rostrumpodcast.rostrum.utils.json
+import com.rostrumpodcast.rostrum.BuildConfig
+import com.rostrumpodcast.rostrum.api.sync.SyncClient
+import com.rostrumpodcast.rostrum.api.sync.gpodder.route.Auth
+import com.rostrumpodcast.rostrum.api.sync.gpodder.route.Device
+import com.rostrumpodcast.rostrum.api.sync.gpodder.route.EpisodeActions
+import com.rostrumpodcast.rostrum.api.sync.gpodder.route.Subscriptions
+import com.rostrumpodcast.rostrum.api.sync.model.result.SyncResult
+import com.rostrumpodcast.rostrum.utils.json
 import com.google.common.net.HttpHeaders
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.DefaultRequest

@@ -1,10 +1,10 @@
-package app.rostrumpodcast.rostrum.manager
+package com.rostrumpodcast.rostrum.manager
 
 import android.content.Context
-import app.rostrumpodcast.rostrum.SettingsRepository
-import app.rostrumpodcast.rostrum.api.db.AppDatabase
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
-import app.rostrumpodcast.rostrum.background.worker.PodcastEpisodeDownloadWorker
+import com.rostrumpodcast.rostrum.SettingsRepository
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.background.worker.PodcastEpisodeDownloadWorker
 import java.io.File
 
 class DownloadManager {

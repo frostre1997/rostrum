@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.apple.model
+package com.rostrumpodcast.rostrum.api.apple.model
 
 enum class Genre(
     val id: Int

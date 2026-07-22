@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.layout
+package com.rostrumpodcast.rostrum.ui.component.layout
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -20,7 +20,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import app.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.R
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

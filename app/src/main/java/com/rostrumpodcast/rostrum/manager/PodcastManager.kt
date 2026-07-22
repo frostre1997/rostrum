@@ -1,14 +1,14 @@
-package app.rostrumpodcast.rostrum.manager
+package com.rostrumpodcast.rostrum.manager
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
-import app.rostrumpodcast.rostrum.api.db.AppDatabase
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
-import app.rostrumpodcast.rostrum.api.db.model.PodcastModel
-import app.rostrumpodcast.rostrum.api.rss.FetchPodcastClient
-import app.rostrumpodcast.rostrum.api.rss.FetchPodcastClientResult
-import app.rostrumpodcast.rostrum.utils.rss.toPodcast
-import app.rostrumpodcast.rostrum.utils.rss.toPodcastEpisode
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.api.rss.FetchPodcastClient
+import com.rostrumpodcast.rostrum.api.rss.FetchPodcastClientResult
+import com.rostrumpodcast.rostrum.utils.rss.toPodcast
+import com.rostrumpodcast.rostrum.utils.rss.toPodcastEpisode
 
 interface AddPodcastResult {
     data class Duplicate(val duplicate: PodcastModel) : AddPodcastResult

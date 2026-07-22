@@ -1,8 +1,8 @@
-package app.rostrumpodcast.rostrum.api.sync.gpodder.route
+package com.rostrumpodcast.rostrum.api.sync.gpodder.route
 
-import app.rostrumpodcast.rostrum.api.sync.gpodder.GpodderClient
-import app.rostrumpodcast.rostrum.api.sync.model.result.AuthResult
-import app.rostrumpodcast.rostrum.api.sync.model.result.SyncResult
+import com.rostrumpodcast.rostrum.api.sync.gpodder.GpodderClient
+import com.rostrumpodcast.rostrum.api.sync.model.result.AuthResult
+import com.rostrumpodcast.rostrum.api.sync.model.result.SyncResult
 import io.ktor.client.request.basicAuth
 import io.ktor.client.request.post
 import io.ktor.http.HttpHeaders

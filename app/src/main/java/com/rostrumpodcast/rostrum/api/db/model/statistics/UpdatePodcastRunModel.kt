@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.db.model.statistics
+package com.rostrumpodcast.rostrum.api.db.model.statistics
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

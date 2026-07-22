@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.sync.model.episodeactions
+package com.rostrumpodcast.rostrum.api.sync.model.episodeactions
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

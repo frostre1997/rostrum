@@ -1,9 +1,9 @@
-package app.rostrumpodcast.rostrum.api.apple
+package com.rostrumpodcast.rostrum.api.apple
 
-import app.rostrumpodcast.rostrum.api.apple.route.Lookup
-import app.rostrumpodcast.rostrum.api.apple.route.Search
-import app.rostrumpodcast.rostrum.api.apple.route.Toppodcast
-import app.rostrumpodcast.rostrum.utils.json
+import com.rostrumpodcast.rostrum.api.apple.route.Lookup
+import com.rostrumpodcast.rostrum.api.apple.route.Search
+import com.rostrumpodcast.rostrum.api.apple.route.Toppodcast
+import com.rostrumpodcast.rostrum.utils.json
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.serialization.kotlinx.json.json

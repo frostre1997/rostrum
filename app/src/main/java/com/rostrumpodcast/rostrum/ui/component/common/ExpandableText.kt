@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.common
+package com.rostrumpodcast.rostrum.ui.component.common
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.clickable

@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.db.model
+package com.rostrumpodcast.rostrum.api.db.model
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Star
@@ -7,7 +7,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import app.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.R
 
 enum class SystemLists(
     val id: Int,

@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.manager
+package com.rostrumpodcast.rostrum.manager
 
 import android.content.Context
 import android.content.Intent
@@ -6,8 +6,8 @@ import android.net.Uri
 import android.text.format.DateFormat
 import androidx.core.content.FileProvider
 import androidx.room.Room
-import app.rostrumpodcast.rostrum.api.db.ALL_MIGRATIONS
-import app.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.ALL_MIGRATIONS
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
 import java.io.BufferedOutputStream
 import java.io.File
 import java.io.FileOutputStream

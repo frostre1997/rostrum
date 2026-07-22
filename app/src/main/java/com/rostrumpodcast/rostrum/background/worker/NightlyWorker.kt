@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.background.worker
+package com.rostrumpodcast.rostrum.background.worker
 
 import android.content.Context
 import androidx.work.CoroutineWorker
@@ -6,12 +6,12 @@ import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
-import app.rostrumpodcast.rostrum.SettingsRepository
-import app.rostrumpodcast.rostrum.background.notification.DebugNightlyNotification
-import app.rostrumpodcast.rostrum.background.work.DeleteOldDownloadsWork
-import app.rostrumpodcast.rostrum.background.work.DeletePlayedDownloadsWork
-import app.rostrumpodcast.rostrum.background.work.ProcessOrphanDownloadsWork
-import app.rostrumpodcast.rostrum.manager.DatabaseManager
+import com.rostrumpodcast.rostrum.SettingsRepository
+import com.rostrumpodcast.rostrum.background.notification.DebugNightlyNotification
+import com.rostrumpodcast.rostrum.background.work.DeleteOldDownloadsWork
+import com.rostrumpodcast.rostrum.background.work.DeletePlayedDownloadsWork
+import com.rostrumpodcast.rostrum.background.work.ProcessOrphanDownloadsWork
+import com.rostrumpodcast.rostrum.manager.DatabaseManager
 import kotlinx.coroutines.flow.first
 import java.util.Calendar
 import java.util.concurrent.TimeUnit

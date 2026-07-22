@@ -3,9 +3,9 @@ package com.rostrumpodcast.rostrum.ui.vm
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import app.rostrumpodcast.rostrum.api.db.AppDatabase
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
-import app.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch

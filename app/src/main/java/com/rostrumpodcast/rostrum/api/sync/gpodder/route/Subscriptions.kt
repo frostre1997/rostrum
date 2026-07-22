@@ -1,9 +1,9 @@
-package app.rostrumpodcast.rostrum.api.sync.gpodder.route
+package com.rostrumpodcast.rostrum.api.sync.gpodder.route
 
-import app.rostrumpodcast.rostrum.api.sync.gpodder.GpodderClient
-import app.rostrumpodcast.rostrum.api.sync.model.result.SubscriptionsGetChangesResult
-import app.rostrumpodcast.rostrum.api.sync.model.result.SyncResult
-import app.rostrumpodcast.rostrum.api.sync.model.result.UploadChangesResult
+import com.rostrumpodcast.rostrum.api.sync.gpodder.GpodderClient
+import com.rostrumpodcast.rostrum.api.sync.model.result.SubscriptionsGetChangesResult
+import com.rostrumpodcast.rostrum.api.sync.model.result.SyncResult
+import com.rostrumpodcast.rostrum.api.sync.model.result.UploadChangesResult
 import io.ktor.client.call.body
 import io.ktor.client.request.get
 import io.ktor.client.request.parameter

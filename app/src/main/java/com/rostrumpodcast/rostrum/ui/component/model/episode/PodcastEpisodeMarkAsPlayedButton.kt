@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.model.episode
+package com.rostrumpodcast.rostrum.ui.component.model.episode
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Check
@@ -10,9 +10,9 @@ import androidx.compose.material3.IconToggleButtonColors
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.res.stringResource
-import app.rostrumpodcast.rostrum.R
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
-import app.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

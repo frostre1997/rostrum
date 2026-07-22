@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.common
+package com.rostrumpodcast.rostrum.ui.component.common
 
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.runtime.Composable

@@ -1,9 +1,9 @@
-package app.rostrumpodcast.rostrum.background.work
+package com.rostrumpodcast.rostrum.background.work
 
 import android.content.Context
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.toArgb
-import app.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
 import coil3.Bitmap
 import coil3.ImageLoader
 import coil3.request.ErrorResult
