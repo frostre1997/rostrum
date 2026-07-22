@@ -14,12 +14,12 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.media3.session.MediaController
 import androidx.media3.session.SessionToken
-import app.rostrumpodcast.podium.background.PlaybackService
-import app.rostrumpodcast.podium.manager.DatabaseManager
-import app.rostrumpodcast.podium.ui.extractDeepLink
-import app.rostrumpodcast.podium.ui.helper.LocalDatabase
-import app.rostrumpodcast.podium.ui.helper.LocalSettingsRepository
-import app.rostrumpodcast.podium.ui.vm.MediaPlayerViewModel
+import app.rostrumpodcast.rostrum.background.PlaybackService
+import app.rostrumpodcast.rostrum.manager.DatabaseManager
+import app.rostrumpodcast.rostrum.ui.extractDeepLink
+import app.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import app.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
+import app.rostrumpodcast.rostrum.ui.vm.MediaPlayerViewModel
 import com.google.common.util.concurrent.Futures.immediateFuture
 import com.google.common.util.concurrent.MoreExecutors
 
