@@ -182,7 +182,7 @@
     <string name="route_settings_player_seek_forward_increment">İleri sarma süresi</string>
     <string name="route_settings_privacy">Gizlilik</string>
     <string name="route_settings_privacy_disable_apple_podcasts_api">Apple Podcasts API kullanımını devre dışı bırak</string>
-    <string name="route_settings_privacy_disable_apple_podcasts_api_description">Etkinleştirilirse, podium artık Apple Podcasts API\'sini kullanmayacaktır</string>
+    <string name="route_settings_privacy_disable_apple_podcasts_api_description">Etkinleştirilirse, rostrumartık Apple Podcasts API\'sini kullanmayacaktır</string>
     <string name="route_settings_roaming_warning_description">Yabancı ağlarda veri kullanmak, operatöründen kaynaklı yüksek dolaşım ücretlerine yol açabilir. Devam etmek istiyor musun?</string>
     <string name="route_settings_roaming_warning_title">Dikkat</string>
     <string name="route_subscriptions">Abonelikler</string>

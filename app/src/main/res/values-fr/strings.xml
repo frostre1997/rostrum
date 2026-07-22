@@ -226,7 +226,7 @@
     <string name="route_settings_appearance_enable_artwork_colors">Activer les couleurs des illustrations</string>
     <string name="route_settings_appearance_enable_artwork_colors_description">Utiliser un thème dynamique basé sur l\'illustration dans le lecteur et sur la page de détails du podcast</string>
     <string name="route_settings_appearance_use_alternative_branding">Utiliser le branding » Podcasts «</string>
-    <string name="route_settings_appearance_use_alternative_branding_description">podium sera nommé » Podcasts « à la place</string>
+    <string name="route_settings_appearance_use_alternative_branding_description">rostrumsera nommé » Podcasts « à la place</string>
     <string name="route_settings_background_activity">Activité en arrière-plan</string>
     <string name="route_settings_background_activity_allow_update_while_roaming">Autoriser la mise-à-jour des podcasts en itinérance</string>
     <string name="route_settings_background_activity_allow_update_while_roaming_description">Utiliser les données mobiles sur un réseau étranger peut entraîner des frais importants de la part de votre fournisseur.</string>
@@ -270,5 +270,5 @@
     <string name="route_settings_player_seek_forward_increment">Avancer de…</string>
     <string name="route_settings_privacy">Confidentialité</string>
     <string name="route_settings_privacy_disable_apple_podcasts_api">Désactiver l\'utilisation de l\'API d\'Apple Podcasts</string>
-    <string name="route_settings_privacy_disable_apple_podcasts_api_description">Si cette option est activée, podium n\'utilisera plus l\'API d\'Apple Podcasts</string>
+    <string name="route_settings_privacy_disable_apple_podcasts_api_description">Si cette option est activée, rostrumn\'utilisera plus l\'API d\'Apple Podcasts</string>
 </resources>
