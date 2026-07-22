@@ -2,7 +2,9 @@
 ![podium](/images/title_dark.png#gh-dark-mode-only)
 ---
 ![GitHub](https://img.shields.io/github/license/aimok04/podium?style=for-the-badge) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/aimok04/podium?style=for-the-badge)
-
+---
+forked from podium by aimok04
+---
 **podium** is a modern, open-source Podcast app for **Android**, written in Kotlin using Compose.
 The app uses **Material 3 Expressive** design to fit right in with modern Android UI.
 

@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "podium"
+rootProject.name = "rostrum"
 include(":app")
