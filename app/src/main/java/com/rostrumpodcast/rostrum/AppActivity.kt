@@ -25,7 +25,7 @@ import com.google.common.util.concurrent.MoreExecutors
 
 class AppActivity : ComponentActivity() {
 
-    private val db by lazy {
+    private val db: DatabaseManager by lazy {
         DatabaseManager.build(this)
     }
 
