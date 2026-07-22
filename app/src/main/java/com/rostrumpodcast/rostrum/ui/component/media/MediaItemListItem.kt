@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.media
+package com.rostrumpodcast.rostrum.ui.component.media
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.size
@@ -19,9 +19,9 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.media3.common.MediaItem
-import app.rostrumpodcast.rostrum.R
-import app.rostrumpodcast.rostrum.ui.vm.MediaPlayerViewModel
-import app.rostrumpodcast.rostrum.utils.getEpisodeId
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.ui.vm.MediaPlayerViewModel
+import com.rostrumpodcast.rostrum.utils.getEpisodeId
 import coil3.compose.AsyncImage
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

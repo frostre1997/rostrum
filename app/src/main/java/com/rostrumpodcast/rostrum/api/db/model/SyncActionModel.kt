@@ -1,10 +1,10 @@
-package app.rostrumpodcast.rostrum.api.db.model
+package com.rostrumpodcast.rostrum.api.db.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import app.rostrumpodcast.rostrum.api.sync.model.episodeactions.EpisodeAction
-import app.rostrumpodcast.rostrum.utils.unixSecondsToIso8601
+import com.rostrumpodcast.rostrum.api.sync.model.episodeactions.EpisodeAction
+import com.rostrumpodcast.rostrum.utils.unixSecondsToIso8601
 
 enum class SyncActionType {
     PLAY,

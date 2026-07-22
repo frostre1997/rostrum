@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.common.swipeable
+package com.rostrumpodcast.rostrum.ui.component.common.swipeable
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
@@ -24,7 +24,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import app.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.R
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 

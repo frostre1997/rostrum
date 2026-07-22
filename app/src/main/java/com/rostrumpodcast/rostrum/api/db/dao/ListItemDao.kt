@@ -1,11 +1,11 @@
-package app.rostrumpodcast.rostrum.api.db.dao
+package com.rostrumpodcast.rostrum.api.db.dao
 
 import androidx.paging.PagingSource
 import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Transaction
-import app.rostrumpodcast.rostrum.api.db.model.ListItemModel
-import app.rostrumpodcast.rostrum.api.db.model.ListItemModelBundle
+import com.rostrumpodcast.rostrum.api.db.model.ListItemModel
+import com.rostrumpodcast.rostrum.api.db.model.ListItemModelBundle
 import kotlinx.coroutines.flow.Flow
 
 @Dao

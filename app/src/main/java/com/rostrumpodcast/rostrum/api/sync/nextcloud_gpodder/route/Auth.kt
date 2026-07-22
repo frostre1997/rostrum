@@ -1,10 +1,10 @@
-package app.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.route
+package com.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.route
 
-import app.rostrumpodcast.rostrum.api.sync.model.result.SyncResult
-import app.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.NextcloudGpodderClient
-import app.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.model.Poll
-import app.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.model.PollResult
-import app.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.model.StartLoginResult
+import com.rostrumpodcast.rostrum.api.sync.model.result.SyncResult
+import com.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.NextcloudGpodderClient
+import com.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.model.Poll
+import com.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.model.PollResult
+import com.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.model.StartLoginResult
 import io.ktor.client.call.body
 import io.ktor.client.request.parameter
 import io.ktor.client.request.post

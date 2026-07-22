@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.background
+package com.rostrumpodcast.rostrum.background
 
 import android.content.Context
 import android.content.Intent
@@ -17,7 +17,7 @@ import androidx.media3.session.MediaLibraryService.MediaLibrarySession
 import androidx.media3.session.MediaSession
 import androidx.media3.session.SessionCommand
 import androidx.media3.session.SessionResult
-import app.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.R
 import com.google.common.collect.ImmutableList
 import com.google.common.util.concurrent.Futures
 import com.google.common.util.concurrent.ListenableFuture

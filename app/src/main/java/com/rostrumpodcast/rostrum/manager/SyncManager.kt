@@ -1,10 +1,10 @@
-package app.rostrumpodcast.rostrum.manager
+package com.rostrumpodcast.rostrum.manager
 
 import android.content.Context
-import app.rostrumpodcast.rostrum.SettingsRepository
-import app.rostrumpodcast.rostrum.api.sync.UnifiedSyncClient
-import app.rostrumpodcast.rostrum.api.sync.UnifiedSyncClientType
-import app.rostrumpodcast.rostrum.utils.getFriendlyDeviceName
+import com.rostrumpodcast.rostrum.SettingsRepository
+import com.rostrumpodcast.rostrum.api.sync.UnifiedSyncClient
+import com.rostrumpodcast.rostrum.api.sync.UnifiedSyncClientType
+import com.rostrumpodcast.rostrum.utils.getFriendlyDeviceName
 import kotlinx.coroutines.flow.first
 import java.util.UUID
 

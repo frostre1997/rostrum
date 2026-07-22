@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.model.episode
+package com.rostrumpodcast.rostrum.ui.component.model.episode
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
@@ -31,10 +31,10 @@ import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.fromHtml
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import app.rostrumpodcast.rostrum.R
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
-import app.rostrumpodcast.rostrum.ui.formatPubDate
-import app.rostrumpodcast.rostrum.ui.theme.Typography
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.ui.formatPubDate
+import com.rostrumpodcast.rostrum.ui.theme.Typography
 import coil3.compose.AsyncImage
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

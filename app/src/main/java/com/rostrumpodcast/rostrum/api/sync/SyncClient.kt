@@ -1,3 +1,3 @@
-package app.rostrumpodcast.rostrum.api.sync
+package com.rostrumpodcast.rostrum.api.sync
 
 interface SyncClient

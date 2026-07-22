@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.sync.model.result
+package com.rostrumpodcast.rostrum.api.sync.model.result
 
 import io.ktor.client.statement.HttpResponse
 import io.ktor.client.statement.request

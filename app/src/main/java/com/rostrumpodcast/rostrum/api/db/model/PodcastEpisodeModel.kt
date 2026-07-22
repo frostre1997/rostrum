@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.db.model
+package com.rostrumpodcast.rostrum.api.db.model
 
 import android.content.Context
 import android.net.Uri
@@ -12,8 +12,8 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.ForeignKey.Companion.CASCADE
 import androidx.room.PrimaryKey
-import app.rostrumpodcast.rostrum.manager.DownloadManager
-import app.rostrumpodcast.rostrum.utils.sha256
+import com.rostrumpodcast.rostrum.manager.DownloadManager
+import com.rostrumpodcast.rostrum.utils.sha256
 import java.io.File
 
 enum class MediaMetadataExtra {

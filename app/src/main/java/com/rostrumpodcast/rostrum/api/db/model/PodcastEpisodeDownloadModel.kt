@@ -1,10 +1,10 @@
-package app.rostrumpodcast.rostrum.api.db.model
+package com.rostrumpodcast.rostrum.api.db.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import app.rostrumpodcast.rostrum.R
-import app.rostrumpodcast.rostrum.utils.sha256
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.utils.sha256
 import java.io.File
 
 enum class PodcastEpisodeDownloadState(

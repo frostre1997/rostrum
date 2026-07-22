@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.button
+package com.rostrumpodcast.rostrum.ui.component.button
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -12,7 +12,7 @@ import androidx.compose.material3.ToggleButtonColors
 import androidx.compose.material3.ToggleButtonDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import app.rostrumpodcast.rostrum.ui.component.common.StateDisplayingComponent
+import com.rostrumpodcast.rostrum.ui.component.common.StateDisplayingComponent
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

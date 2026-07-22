@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.db.dao.statistics
+package com.rostrumpodcast.rostrum.api.db.dao.statistics
 
 import androidx.room.Dao
 import androidx.room.Query

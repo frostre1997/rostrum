@@ -1,13 +1,13 @@
-package app.rostrumpodcast.rostrum.background.notification
+package com.rostrumpodcast.rostrum.background.notification
 
 import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Context
 import androidx.core.app.NotificationCompat
-import app.rostrumpodcast.rostrum.R
-import app.rostrumpodcast.rostrum.api.db.model.podcastubscriptionBundle
-import app.rostrumpodcast.rostrum.api.rss.FetchPodcastClientResult
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.podcastubscriptionBundle
+import com.rostrumpodcast.rostrum.api.rss.FetchPodcastClientResult
 import kotlin.math.roundToInt
 
 class DebugUpdateNotification(

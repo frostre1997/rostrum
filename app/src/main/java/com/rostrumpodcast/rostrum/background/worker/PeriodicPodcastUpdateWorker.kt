@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.background.worker
+package com.rostrumpodcast.rostrum.background.worker
 
 import android.content.Context
 import androidx.work.Constraints
@@ -8,9 +8,9 @@ import androidx.work.NetworkType
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
-import app.rostrumpodcast.rostrum.SettingsRepository
-import app.rostrumpodcast.rostrum.background.work.PodcastUpdateWork
-import app.rostrumpodcast.rostrum.manager.DatabaseManager
+import com.rostrumpodcast.rostrum.SettingsRepository
+import com.rostrumpodcast.rostrum.background.work.PodcastUpdateWork
+import com.rostrumpodcast.rostrum.manager.DatabaseManager
 import kotlinx.coroutines.flow.first
 import java.util.concurrent.TimeUnit
 

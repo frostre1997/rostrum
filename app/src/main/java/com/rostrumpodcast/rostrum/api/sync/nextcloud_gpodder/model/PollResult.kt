@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.model
+package com.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.model
 
 import kotlinx.serialization.Serializable
 

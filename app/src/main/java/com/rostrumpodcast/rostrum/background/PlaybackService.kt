@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.background
+package com.rostrumpodcast.rostrum.background
 
 import android.os.Bundle
 import android.os.Handler
@@ -17,17 +17,17 @@ import androidx.media3.session.DefaultMediaNotificationProvider
 import androidx.media3.session.MediaLibraryService
 import androidx.media3.session.MediaSession
 import androidx.media3.session.SessionCommand
-import app.rostrumpodcast.rostrum.R
-import app.rostrumpodcast.rostrum.SettingsRepository
-import app.rostrumpodcast.rostrum.background.notification.NewPodcastEpisodeNotification
-import app.rostrumpodcast.rostrum.background.worker.sync.PartialSynchronizationWorker
-import app.rostrumpodcast.rostrum.manager.DatabaseManager
-import app.rostrumpodcast.rostrum.ui.DeepLink
-import app.rostrumpodcast.rostrum.ui.asPendingIntent
-import app.rostrumpodcast.rostrum.utils.getAudioUrl
-import app.rostrumpodcast.rostrum.utils.getEpisodeId
-import app.rostrumpodcast.rostrum.utils.getOrigin
-import app.rostrumpodcast.rostrum.utils.getResumeAt
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.SettingsRepository
+import com.rostrumpodcast.rostrum.background.notification.NewPodcastEpisodeNotification
+import com.rostrumpodcast.rostrum.background.worker.sync.PartialSynchronizationWorker
+import com.rostrumpodcast.rostrum.manager.DatabaseManager
+import com.rostrumpodcast.rostrum.ui.DeepLink
+import com.rostrumpodcast.rostrum.ui.asPendingIntent
+import com.rostrumpodcast.rostrum.utils.getAudioUrl
+import com.rostrumpodcast.rostrum.utils.getEpisodeId
+import com.rostrumpodcast.rostrum.utils.getOrigin
+import com.rostrumpodcast.rostrum.utils.getResumeAt
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -36,14 +36,14 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
 
-const val COMMAND_SLEEP_TIMER_SET = "app.rostrumpodcast.rostrum.COMMAND_SLEEP_TIMER_SET"
-const val COMMAND_SLEEP_TIMER_GET = "app.rostrumpodcast.rostrum.COMMAND_SLEEP_TIMER_GET"
-const val COMMAND_CYCLE_SPEED = "app.rostrumpodcast.rostrum.COMMAND_CYCLE_SPEED"
+const val COMMAND_SLEEP_TIMER_SET = "com.rostrumpodcast.rostrum.COMMAND_SLEEP_TIMER_SET"
+const val COMMAND_SLEEP_TIMER_GET = "com.rostrumpodcast.rostrum.COMMAND_SLEEP_TIMER_GET"
+const val COMMAND_CYCLE_SPEED = "com.rostrumpodcast.rostrum.COMMAND_CYCLE_SPEED"
 
 const val COMMAND_SET_SEEK_BACK_INCREMENT =
-    "app.rostrumpodcast.rostrum.COMMAND_SET_SEEK_BACK_INCREMENT"
+    "com.rostrumpodcast.rostrum.COMMAND_SET_SEEK_BACK_INCREMENT"
 const val COMMAND_SET_SEEK_FORWARD_INCREMENT =
-    "app.rostrumpodcast.rostrum.COMMAND_SET_SEEK_FORWARD_INCREMENT"
+    "com.rostrumpodcast.rostrum.COMMAND_SET_SEEK_FORWARD_INCREMENT"
 
 class PlaybackService : MediaLibraryService() {
 

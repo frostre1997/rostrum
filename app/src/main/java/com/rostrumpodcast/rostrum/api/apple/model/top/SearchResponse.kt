@@ -1,6 +1,6 @@
-package app.rostrumpodcast.rostrum.api.apple.model.top
+package com.rostrumpodcast.rostrum.api.apple.model.top
 
-import app.rostrumpodcast.rostrum.api.model.PodcastPreviewModel
+import com.rostrumpodcast.rostrum.api.model.PodcastPreviewModel
 import kotlinx.serialization.Serializable
 
 @Serializable

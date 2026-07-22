@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.db.dao
+package com.rostrumpodcast.rostrum.api.db.dao
 
 import androidx.paging.PagingSource
 import androidx.room.Dao
@@ -9,11 +9,11 @@ import androidx.room.Transaction
 import androidx.room.Update
 import androidx.sqlite.db.SimpleSQLiteQuery
 import androidx.sqlite.db.SupportSQLiteQuery
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadModel
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadState
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodePlayStateModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadState
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodePlayStateModel
 import kotlinx.coroutines.flow.Flow
 
 enum class PodcastEpisodesOrder(

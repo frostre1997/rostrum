@@ -1,11 +1,11 @@
-package app.rostrumpodcast.rostrum.api.db.dao
+package com.rostrumpodcast.rostrum.api.db.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Transaction
-import app.rostrumpodcast.rostrum.api.db.model.SyncActionModel
-import app.rostrumpodcast.rostrum.api.db.model.SyncActionType
+import com.rostrumpodcast.rostrum.api.db.model.SyncActionModel
+import com.rostrumpodcast.rostrum.api.db.model.SyncActionType
 
 @Dao
 interface SyncActionDao {

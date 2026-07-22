@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.common.swipeable
+package com.rostrumpodcast.rostrum.ui.component.common.swipeable
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.WatchLater
@@ -13,9 +13,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
-import app.rostrumpodcast.rostrum.R
-import app.rostrumpodcast.rostrum.api.db.model.SystemLists
-import app.rostrumpodcast.rostrum.ui.helper.LocalDatabase
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.SystemLists
+import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
 
 data class SwipeableItemActionStyle(
     val icon: ImageVector,

@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.layout
+package com.rostrumpodcast.rostrum.ui.component.layout
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.NewReleases
@@ -7,7 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
-import app.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.R
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

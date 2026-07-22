@@ -1,11 +1,11 @@
-package app.rostrumpodcast.rostrum.api.db.dao
+package com.rostrumpodcast.rostrum.api.db.dao
 
 import androidx.paging.PagingSource
 import androidx.room.Dao
 import androidx.room.Query
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodePlayStateBundle
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodePlayStateModel
-import app.rostrumpodcast.rostrum.api.db.model.PodcastPlayStateBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodePlayStateBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodePlayStateModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastPlayStateBundle
 
 @Dao
 interface PodcastEpisodePlayStateDao {

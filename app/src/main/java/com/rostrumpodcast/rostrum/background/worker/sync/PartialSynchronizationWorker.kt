@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.background.worker.sync
+package com.rostrumpodcast.rostrum.background.worker.sync
 
 import android.content.Context
 import android.util.Log
@@ -11,13 +11,13 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
-import app.rostrumpodcast.rostrum.SettingsRepository
-import app.rostrumpodcast.rostrum.api.db.model.SyncActionType
-import app.rostrumpodcast.rostrum.api.sync.model.episodeactions.EpisodeAction
-import app.rostrumpodcast.rostrum.api.sync.model.result.SyncResult
-import app.rostrumpodcast.rostrum.manager.DatabaseManager
-import app.rostrumpodcast.rostrum.manager.PodcastManager
-import app.rostrumpodcast.rostrum.manager.SyncManager
+import com.rostrumpodcast.rostrum.SettingsRepository
+import com.rostrumpodcast.rostrum.api.db.model.SyncActionType
+import com.rostrumpodcast.rostrum.api.sync.model.episodeactions.EpisodeAction
+import com.rostrumpodcast.rostrum.api.sync.model.result.SyncResult
+import com.rostrumpodcast.rostrum.manager.DatabaseManager
+import com.rostrumpodcast.rostrum.manager.PodcastManager
+import com.rostrumpodcast.rostrum.manager.SyncManager
 import kotlinx.coroutines.flow.first
 import java.util.concurrent.TimeUnit
 

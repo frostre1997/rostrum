@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.background.notification
+package com.rostrumpodcast.rostrum.background.notification
 
 import android.Manifest
 import android.app.Notification

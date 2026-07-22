@@ -1,9 +1,9 @@
-package app.rostrumpodcast.rostrum.api.db.model
+package com.rostrumpodcast.rostrum.api.db.model
 
 import androidx.room.Embedded
 import androidx.room.Relation
-import app.rostrumpodcast.rostrum.api.sync.model.episodeactions.EpisodeAction
-import app.rostrumpodcast.rostrum.utils.unixSecondsToIso8601
+import com.rostrumpodcast.rostrum.api.sync.model.episodeactions.EpisodeAction
+import com.rostrumpodcast.rostrum.utils.unixSecondsToIso8601
 import kotlin.time.ExperimentalTime
 
 data class PodcastEpisodePlayStateBundle(

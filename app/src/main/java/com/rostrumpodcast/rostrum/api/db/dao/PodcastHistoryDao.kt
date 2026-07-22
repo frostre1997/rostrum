@@ -1,12 +1,12 @@
-package app.rostrumpodcast.rostrum.api.db.dao
+package com.rostrumpodcast.rostrum.api.db.dao
 
 import androidx.paging.PagingSource
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
-import app.rostrumpodcast.rostrum.api.db.model.PodcastHistoryBundle
-import app.rostrumpodcast.rostrum.api.db.model.PodcastHistoryModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastHistoryBundle
+import com.rostrumpodcast.rostrum.api.db.model.PodcastHistoryModel
 import kotlinx.coroutines.flow.Flow
 
 @Dao

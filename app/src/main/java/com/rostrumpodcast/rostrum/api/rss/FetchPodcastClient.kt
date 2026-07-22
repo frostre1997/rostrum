@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.rss
+package com.rostrumpodcast.rostrum.api.rss
 
 import com.prof18.rssparser.RssParser
 import com.prof18.rssparser.model.RssChannel

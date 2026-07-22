@@ -1,29 +1,29 @@
-package app.rostrumpodcast.rostrum.api.db
+package com.rostrumpodcast.rostrum.api.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import app.rostrumpodcast.rostrum.api.db.dao.ListDao
-import app.rostrumpodcast.rostrum.api.db.dao.ListItemDao
-import app.rostrumpodcast.rostrum.api.db.dao.PodcastDao
-import app.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodeDao
-import app.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodeDownloadDao
-import app.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodePlayStateDao
-import app.rostrumpodcast.rostrum.api.db.dao.PodcastHistoryDao
-import app.rostrumpodcast.rostrum.api.db.dao.podcastubscriptionDao
-import app.rostrumpodcast.rostrum.api.db.dao.SyncActionDao
-import app.rostrumpodcast.rostrum.api.db.dao.statistics.UpdatePodcastRunDao
-import app.rostrumpodcast.rostrum.api.db.model.ListItemModel
-import app.rostrumpodcast.rostrum.api.db.model.ListModel
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadModel
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodePlayStateModel
-import app.rostrumpodcast.rostrum.api.db.model.PodcastHistoryModel
-import app.rostrumpodcast.rostrum.api.db.model.PodcastModel
-import app.rostrumpodcast.rostrum.api.db.model.podcastubscriptionModel
-import app.rostrumpodcast.rostrum.api.db.model.SyncActionModel
-import app.rostrumpodcast.rostrum.api.db.model.statistics.UpdatePodcastRunModel
+import com.rostrumpodcast.rostrum.api.db.dao.ListDao
+import com.rostrumpodcast.rostrum.api.db.dao.ListItemDao
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastDao
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodeDao
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodeDownloadDao
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastEpisodePlayStateDao
+import com.rostrumpodcast.rostrum.api.db.dao.PodcastHistoryDao
+import com.rostrumpodcast.rostrum.api.db.dao.podcastubscriptionDao
+import com.rostrumpodcast.rostrum.api.db.dao.SyncActionDao
+import com.rostrumpodcast.rostrum.api.db.dao.statistics.UpdatePodcastRunDao
+import com.rostrumpodcast.rostrum.api.db.model.ListItemModel
+import com.rostrumpodcast.rostrum.api.db.model.ListModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodePlayStateModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastHistoryModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
+import com.rostrumpodcast.rostrum.api.db.model.podcastubscriptionModel
+import com.rostrumpodcast.rostrum.api.db.model.SyncActionModel
+import com.rostrumpodcast.rostrum.api.db.model.statistics.UpdatePodcastRunModel
 
 @Database(
     entities = [

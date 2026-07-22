@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.model
+package com.rostrumpodcast.rostrum.api.model
 
 data class PodcastPreviewModel(
     var fetchUrl: String,

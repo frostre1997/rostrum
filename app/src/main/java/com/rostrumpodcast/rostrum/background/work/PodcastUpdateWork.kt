@@ -1,14 +1,14 @@
-package app.rostrumpodcast.rostrum.background.work
+package com.rostrumpodcast.rostrum.background.work
 
 import android.content.Context
-import app.rostrumpodcast.rostrum.SettingsRepository
-import app.rostrumpodcast.rostrum.api.db.AppDatabase
-import app.rostrumpodcast.rostrum.api.rss.FetchPodcastClient
-import app.rostrumpodcast.rostrum.api.rss.FetchPodcastClientResult
-import app.rostrumpodcast.rostrum.background.notification.DebugUpdateNotification
-import app.rostrumpodcast.rostrum.background.notification.NewPodcastEpisodeNotification
-import app.rostrumpodcast.rostrum.manager.DownloadManager
-import app.rostrumpodcast.rostrum.utils.rss.toPodcastEpisode
+import com.rostrumpodcast.rostrum.SettingsRepository
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.rss.FetchPodcastClient
+import com.rostrumpodcast.rostrum.api.rss.FetchPodcastClientResult
+import com.rostrumpodcast.rostrum.background.notification.DebugUpdateNotification
+import com.rostrumpodcast.rostrum.background.notification.NewPodcastEpisodeNotification
+import com.rostrumpodcast.rostrum.manager.DownloadManager
+import com.rostrumpodcast.rostrum.utils.rss.toPodcastEpisode
 import coil3.Bitmap
 import coil3.ImageLoader
 import coil3.request.ErrorResult

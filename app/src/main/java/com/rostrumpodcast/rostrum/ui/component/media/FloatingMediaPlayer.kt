@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.media
+package com.rostrumpodcast.rostrum.ui.component.media
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
@@ -48,11 +48,11 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import app.rostrumpodcast.rostrum.ui.component.common.SwitchableDynamicMaterialExpressiveTheme
-import app.rostrumpodcast.rostrum.ui.dialog.ShimmerAsyncImage
-import app.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
-import app.rostrumpodcast.rostrum.ui.theme.Typography
-import app.rostrumpodcast.rostrum.ui.vm.MediaPlayerViewModel
+import com.rostrumpodcast.rostrum.ui.component.common.SwitchableDynamicMaterialExpressiveTheme
+import com.rostrumpodcast.rostrum.ui.dialog.ShimmerAsyncImage
+import com.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
+import com.rostrumpodcast.rostrum.ui.theme.Typography
+import com.rostrumpodcast.rostrum.ui.vm.MediaPlayerViewModel
 
 val LocalFloatingMediaPlayerShown = compositionLocalOf { false }
 val LocalFloatingMediaPlayerHeight = compositionLocalOf { 0.dp }

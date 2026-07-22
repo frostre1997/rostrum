@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.library
+package com.rostrumpodcast.rostrum.ui.component.library
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -23,7 +23,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import app.rostrumpodcast.rostrum.ui.theme.Typography
+import com.rostrumpodcast.rostrum.ui.theme.Typography
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

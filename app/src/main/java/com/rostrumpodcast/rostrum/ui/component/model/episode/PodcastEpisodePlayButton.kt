@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.model.episode
+package com.rostrumpodcast.rostrum.ui.component.model.episode
 
 import android.util.Log
 import androidx.activity.compose.LocalActivity
@@ -20,12 +20,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
-import app.rostrumpodcast.rostrum.AppActivity
-import app.rostrumpodcast.rostrum.R
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
-import app.rostrumpodcast.rostrum.ui.component.button.StateDisplayingToggleButton
-import app.rostrumpodcast.rostrum.ui.component.common.ButtonLabelWithIconInset
-import app.rostrumpodcast.rostrum.ui.formatEpisodePlayTime
+import com.rostrumpodcast.rostrum.AppActivity
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
+import com.rostrumpodcast.rostrum.ui.component.button.StateDisplayingToggleButton
+import com.rostrumpodcast.rostrum.ui.component.common.ButtonLabelWithIconInset
+import com.rostrumpodcast.rostrum.ui.formatEpisodePlayTime
 import com.rostrumpodcast.rostrum.ui.vm.MediaPlayerViewModel
 
 private enum class ButtonState {

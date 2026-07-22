@@ -1,11 +1,11 @@
-package app.rostrumpodcast.rostrum.background.work
+package com.rostrumpodcast.rostrum.background.work
 
 import android.content.Context
 import android.util.Log
-import app.rostrumpodcast.rostrum.SettingsRepository
-import app.rostrumpodcast.rostrum.api.db.AppDatabase
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadState
-import app.rostrumpodcast.rostrum.manager.DownloadManager
+import com.rostrumpodcast.rostrum.SettingsRepository
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadState
+import com.rostrumpodcast.rostrum.manager.DownloadManager
 import java.io.File
 
 class ProcessOrphanDownloadsWork(

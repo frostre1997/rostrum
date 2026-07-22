@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.background.notification
+package com.rostrumpodcast.rostrum.background.notification
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -6,10 +6,10 @@ import android.app.NotificationManager
 import android.content.Context
 import android.graphics.Bitmap
 import androidx.core.app.NotificationCompat
-import app.rostrumpodcast.rostrum.R
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
-import app.rostrumpodcast.rostrum.ui.DeepLink
-import app.rostrumpodcast.rostrum.ui.asPendingIntent
+import com.rostrumpodcast.rostrum.R
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.ui.DeepLink
+import com.rostrumpodcast.rostrum.ui.asPendingIntent
 
 class NewPodcastEpisodeNotification(
     val podcastTitle: String,

@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.api.db.model
+package com.rostrumpodcast.rostrum.api.db.model
 
 import android.net.Uri
 import androidx.media3.common.MediaItem
@@ -6,7 +6,7 @@ import androidx.media3.common.MediaMetadata
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import app.rostrumpodcast.rostrum.api.opml.model.OpmlOutline
+import com.rostrumpodcast.rostrum.api.opml.model.OpmlOutline
 
 @Entity(tableName = "podcast")
 data class PodcastModel(

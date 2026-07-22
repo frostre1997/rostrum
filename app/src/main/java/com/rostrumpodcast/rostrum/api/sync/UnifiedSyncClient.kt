@@ -1,13 +1,13 @@
-package app.rostrumpodcast.rostrum.api.sync
+package com.rostrumpodcast.rostrum.api.sync
 
-import app.rostrumpodcast.rostrum.api.sync.gpodder.GpodderClient
-import app.rostrumpodcast.rostrum.api.sync.model.episodeactions.EpisodeAction
-import app.rostrumpodcast.rostrum.api.sync.model.result.AuthResult
-import app.rostrumpodcast.rostrum.api.sync.model.result.EpisodeActionsGetResult
-import app.rostrumpodcast.rostrum.api.sync.model.result.SubscriptionsGetChangesResult
-import app.rostrumpodcast.rostrum.api.sync.model.result.SyncResult
-import app.rostrumpodcast.rostrum.api.sync.model.result.UploadChangesResult
-import app.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.NextcloudGpodderClient
+import com.rostrumpodcast.rostrum.api.sync.gpodder.GpodderClient
+import com.rostrumpodcast.rostrum.api.sync.model.episodeactions.EpisodeAction
+import com.rostrumpodcast.rostrum.api.sync.model.result.AuthResult
+import com.rostrumpodcast.rostrum.api.sync.model.result.EpisodeActionsGetResult
+import com.rostrumpodcast.rostrum.api.sync.model.result.SubscriptionsGetChangesResult
+import com.rostrumpodcast.rostrum.api.sync.model.result.SyncResult
+import com.rostrumpodcast.rostrum.api.sync.model.result.UploadChangesResult
+import com.rostrumpodcast.rostrum.api.sync.nextcloud_gpodder.NextcloudGpodderClient
 
 enum class UnifiedSyncClientType(
     val builder: (

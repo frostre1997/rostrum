@@ -1,6 +1,6 @@
-package app.rostrumpodcast.rostrum.api.apple.route
+package com.rostrumpodcast.rostrum.api.apple.route
 
-import app.rostrumpodcast.rostrum.api.apple.ApplePodcastClient
+import com.rostrumpodcast.rostrum.api.apple.ApplePodcastClient
 
 abstract class ApiRoute(
     client: ApplePodcastClient

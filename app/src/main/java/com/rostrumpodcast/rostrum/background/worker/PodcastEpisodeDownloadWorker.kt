@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.background.worker
+package com.rostrumpodcast.rostrum.background.worker
 
 import android.content.Context
 import androidx.work.Constraints
@@ -12,10 +12,10 @@ import androidx.work.WorkManager
 import androidx.work.WorkerParameters
 import androidx.work.impl.WorkManagerImpl
 import androidx.work.workDataOf
-import app.rostrumpodcast.rostrum.SettingsRepository
-import app.rostrumpodcast.rostrum.background.work.PodcastEpisodeDownloadWork
-import app.rostrumpodcast.rostrum.manager.DatabaseManager
-import app.rostrumpodcast.rostrum.ui.route.settings.SettingsRoute
+import com.rostrumpodcast.rostrum.SettingsRepository
+import com.rostrumpodcast.rostrum.background.work.PodcastEpisodeDownloadWork
+import com.rostrumpodcast.rostrum.manager.DatabaseManager
+import com.rostrumpodcast.rostrum.ui.route.settings.SettingsRoute
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.withContext
@@ -53,7 +53,7 @@ class PodcastEpisodeDownloadWorker(
 
     companion object {
         fun generateUniqueWorkName(episodeId: String): String {
-            return "app.rostrumpodcast.rostrum.background.worker.PodcastEpisodeDownloadWorker:$episodeId"
+            return "com.rostrumpodcast.rostrum.background.worker.PodcastEpisodeDownloadWorker:$episodeId"
         }
 
         suspend fun enqueueDownload(

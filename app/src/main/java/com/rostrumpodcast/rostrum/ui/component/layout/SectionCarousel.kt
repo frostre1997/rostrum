@@ -1,4 +1,4 @@
-package app.rostrumpodcast.rostrum.ui.component.layout
+package com.rostrumpodcast.rostrum.ui.component.layout
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.lazy.LazyListScope

@@ -1,12 +1,12 @@
-package app.rostrumpodcast.rostrum.background.work
+package com.rostrumpodcast.rostrum.background.work
 
 import android.content.Context
 import android.util.Log
 import androidx.compose.runtime.currentRecomposeScope
-import app.rostrumpodcast.rostrum.api.db.AppDatabase
-import app.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadState
-import app.rostrumpodcast.rostrum.api.download.HttpDownloadClient
-import app.rostrumpodcast.rostrum.api.download.HttpDownloadClientResult
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeDownloadState
+import com.rostrumpodcast.rostrum.api.download.HttpDownloadClient
+import com.rostrumpodcast.rostrum.api.download.HttpDownloadClientResult
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay
