@@ -11,7 +11,6 @@ plugins {
 android {
     namespace = "com.rostrumpodcast.rostrum"
     compileSdk = 36
-    }
 
     dependenciesInfo {
         // Disables dependency metadata when building APKs.
@@ -29,16 +28,16 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-     /*
-     signingConfigs {
-         create("release") {
-             storeFile = file("keystore.jks")
-             storePassword = System.getenv("SIGNING_STORE_PASSWORD")
-             keyAlias = System.getenv("SIGNING_KEY_ALIAS")
-             keyPassword = System.getenv("SIGNING_KEY_PASSWORD")
+    /*
+    signingConfigs {
+        create("release") {
+            storeFile = file("keystore.jks")
+            storePassword = System.getenv("SIGNING_STORE_PASSWORD")
+            keyAlias = System.getenv("SIGNING_KEY_ALIAS")
+            keyPassword = System.getenv("SIGNING_KEY_PASSWORD")
         }
     }
-   */
+    */
     buildTypes {
         release {
             isMinifyEnabled = true
@@ -48,7 +47,7 @@ android {
                 "proguard-rules.pro"
             )
 
-          //  signingConfig = signingConfigs["release"]
+            //  signingConfig = signingConfigs["release"]
         }
         debug {
             applicationIdSuffix = ".debug"
