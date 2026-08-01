@@ -35,7 +35,7 @@ fun LocallyAvailableRoute(
     val db = LocalDatabase.current
     val vm = viewModel { LocallyAvailableViewModel(db) }
 
-    val locallyAvailable = vm.locallyAvailable.collectAsLazyPagingItems()
+    val locallyAvailable = vm.locallyAvailable.collectAsLazyPagingItems<PodcastEpisodeModel>()
 
     val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
 
