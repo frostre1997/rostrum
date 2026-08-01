@@ -43,8 +43,8 @@ class PeriodicPodcastUpdateWorker(
             replace: Boolean = false,
             delay: Boolean = false
         ) {
-            val intervalMinutes = settingsRepository.behavior.updatepodcastIntervalMinutes.first()
-            val inRoaming = settingsRepository.behavior.updatepodcastInRoaming.first()
+            val intervalMinutes = settingsRepository.behavior.updatePodcastIntervalMinutes.first()
+            val inRoaming = settingsRepository.behavior.updatePodcastInRoaming.first()
 
             enqueueWorker(
                 context = context,
