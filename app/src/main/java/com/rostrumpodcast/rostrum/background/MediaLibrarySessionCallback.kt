@@ -47,7 +47,7 @@ enum class LibraryTabs(
                     .setTitle(context.getString(titleId))
                     .setIsBrowsable(true)
                     .setIsPlayable(false)
-                    .setMediaType(MediaMetadata.MEDIA_TYPE_FOLDER_podcast)
+                    .setMediaType(MediaMetadata.MEDIA_TYPE_FOLDER_PODCAST)
                     .build()
             )
             .build()
