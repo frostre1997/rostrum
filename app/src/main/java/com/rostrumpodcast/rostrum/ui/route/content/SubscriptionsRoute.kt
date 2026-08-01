@@ -35,7 +35,7 @@ fun SubscriptionsRoute(
     val db = LocalDatabase.current
     val vm = viewModel { SubscriptionsViewModel(db) }
 
-    val subscriptions = vm.subscriptions.collectAsLazyPagingItems()
+    val subscriptions = vm.subscriptions.collectAsLazyPagingItems<PodcastSubscriptionBundle>()
 
     val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
 
