@@ -15,7 +15,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.media3.session.MediaController
 import androidx.media3.session.SessionToken
 import com.rostrumpodcast.rostrum.background.PlaybackService
-import com.rostrumpodcast.rostrum.manager.DatabaseManager
+import com.rostrumpodcast.rostrum.api.db.AppDatabase
 import com.rostrumpodcast.rostrum.ui.extractDeepLink
 import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
 import com.rostrumpodcast.rostrum.ui.helper.LocalSettingsRepository
@@ -25,8 +25,8 @@ import com.google.common.util.concurrent.MoreExecutors
 
 class AppActivity : ComponentActivity() {
 
-    private val db: DatabaseManager by lazy {
-        DatabaseManager.build(this)
+    private val db: AppDatabase by lazy {
+        com.rostrumpodcast.rostrum.manager.DatabaseManager.build(this)
     }
 
     private val settingsRepository = SettingsRepository(this)
