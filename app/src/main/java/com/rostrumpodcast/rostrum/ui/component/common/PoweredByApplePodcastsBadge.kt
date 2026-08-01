@@ -59,7 +59,7 @@ fun PoweredByApplepodcastBadge() {
             Spacer(Modifier.width(8.dp))
 
             Text(
-                text = stringResource(R.string.badge_powered_by_apple_podcast),
+                text = stringResource("Apple Podcasts"),
                 style = Typography.labelMedium
             )
         }
@@ -74,7 +74,7 @@ fun PoweredByApplepodcastBadge() {
             Modifier.padding(24.dp)
         ) {
             Text(
-                text = stringResource(R.string.badge_powered_by_apple_podcast),
+                text = stringResource("Powered by Apple Podcasts"),
                 style = Typography.headlineMediumEmphasized
             )
 
