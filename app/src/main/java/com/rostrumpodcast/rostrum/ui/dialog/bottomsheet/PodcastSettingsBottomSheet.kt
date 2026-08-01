@@ -7,7 +7,7 @@ import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
-import com.rostrumpodcast.rostrum.ui.view.model.podcastettingsView
+import com.rostrumpodcast.rostrum.ui.view.model.podcastSettingsView
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -31,7 +31,7 @@ fun podcastettingsBottomSheet(
         contentWindowInsets = { WindowInsets() },
         dragHandle = null,
     ) {
-        podcastettingsView(
+        podcastSettingsView(
             podcast = podcast,
             onBack = {
                 scope.launch {
