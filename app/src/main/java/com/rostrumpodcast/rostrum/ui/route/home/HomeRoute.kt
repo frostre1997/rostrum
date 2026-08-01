@@ -14,7 +14,7 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Add
 import androidx.compose.material.icons.rounded.Explore
-import androidx.compose.material.icons.rounded.podcast
+import androidx.compose.material.icons.rounded.podcastModel
 import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material3.Badge
 import androidx.compose.material3.Button
@@ -191,7 +191,7 @@ fun HomeRoute(
                     locallyAvailablePager,
                     isEmpty = {
                         InfoLayout(
-                            icon = Icons.Rounded.podcast,
+                            icon = Icons.Rounded.podcastModel,
                             title = {
                                 stringResource(R.string.route_home_empty_title)
                             },
@@ -245,7 +245,7 @@ fun HomeRoute(
                                             modifier = Modifier.animateItem(),
                                             bundle = bundle,
                                             onClick = {
-                                                onClickPodcast(bundle.podcast.origin)
+                                                onClickPodcast(bundle.podcastModel.origin)
                                             }
                                         )
                                     }
@@ -388,7 +388,7 @@ fun HomeRoute(
                                             modifier = Modifier.animateItem(),
                                             podcast = podcast,
                                             onClick = {
-                                                onClickPodcast(podcast.origin)
+                                                onClickPodcast(podcast.episode.origin)
                                             }
                                         )
                                     }
