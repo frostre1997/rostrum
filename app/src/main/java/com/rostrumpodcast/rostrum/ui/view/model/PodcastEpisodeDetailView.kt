@@ -119,7 +119,7 @@ fun PodcastEpisodeDetailView(
                     ) {
                         ShimmerAsyncImage(
                             modifier = Modifier
-                                .size(IconButtonDefaults.mediumIconSize)
+                                .size(IconButtonDefaults.med%iumIconSize)
                                 .clip(CircleShape),
 
                             model = parent?.imageUrl,
