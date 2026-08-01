@@ -195,14 +195,14 @@ fun SettingsDebugPane(
 
                     onClick = {
                         scope.launch {
-                            val podcasts = db.podcasts().allSync()
+                           // val podcasts = db.podcasts().allSync()
 
                             podcasts.forEach {
-                                val episodes = db.podcastEpisodes().all(it.origin).first()
+                                // val episodes = db.podcastEpisodes().all(it.origin).first()
 
-                                db.podcastEpisodes().delete(episodes.first().episode.id)
+                                // db.podcastEpisodes().delete(episodes.first().episode.id)
                                 db.podcastSubscriptions()
-                                    .storeCacheValues(it.origin, "", "", "")
+                                    // .storeCacheValues(it.origin, "", "", "")
                             }
                         }
                     }
