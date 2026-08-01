@@ -101,7 +101,7 @@ fun HomeRoute(
     val newEpisodesVm = viewModel { NewEpisodesViewModel(db) }
     val locallyAvailableVm = viewModel { LocallyAvailableViewModel(db) }
 
-    val subscriptionsPager = subscriptionsVm.subscriptions.collectAsLazyPagingItems()
+    val subscriptions = vm.subscriptions.collectAsLazyPagingItems<PodcastSubscriptionBundle>()
     val continuePlayingPager = continuePlayingVm.continuePlaying.collectAsLazyPagingItems()
     val newEpisodesPager = newEpisodesVm.newEpisodes.collectAsLazyPagingItems()
     val locallyAvailablePager = locallyAvailableVm.locallyAvailable.collectAsLazyPagingItems()
