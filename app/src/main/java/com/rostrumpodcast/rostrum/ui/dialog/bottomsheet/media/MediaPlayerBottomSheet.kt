@@ -32,7 +32,7 @@ import androidx.compose.material.icons.rounded.Forward30
 import androidx.compose.material.icons.rounded.Forward5
 import androidx.compose.material.icons.rounded.Pause
 import androidx.compose.material.icons.rounded.PlayArrow
-import androidx.compose.material.icons.rounded.podcast
+import androidx.compose.material.icons.rounded.episode
 import androidx.compose.material.icons.rounded.Replay
 import androidx.compose.material.icons.rounded.Replay10
 import androidx.compose.material.icons.rounded.Replay30
@@ -210,7 +210,7 @@ fun MediaPlayerBottomSheet(
                                     ) {
                                         Icon(
                                             modifier = Modifier.size(12.dp),
-                                            imageVector = Icons.Rounded.podcast,
+                                            imageVector = Icons.Rounded.episode,
                                             contentDescription = stringResource(R.string.common_info)
                                         )
 
