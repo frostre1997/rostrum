@@ -104,7 +104,7 @@ fun HomeRoute(
     val subscriptions = vm.subscriptions.collectAsLazyPagingItems<PodcastSubscriptionBundle>()
     val continuePlayingPager = continuePlayingVm.continuePlaying.collectAsLazyPagingItems()
     val newEpisodesPager = newEpisodesVm.newEpisodes.collectAsLazyPagingItems()
-    val locallyAvailablePager = locallyAvailableVm.locallyAvailable.collectAsLazyPagingItems()
+    val locallyAvailable = vm.locallyAvailable.collectAsLazyPagingItems<PodcastEpisodeModel>()
 
     val loaded = remember { mutableStateOf(false) }
     LaunchedEffect(
