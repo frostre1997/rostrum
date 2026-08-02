@@ -65,7 +65,7 @@ fun DiscoverRoute(
     val disableApplePodcastApi = settingsRepository.privacy.disableApplepodcastApi
         .collectAsState(false)
 
-    if(disableApplepodcastApi.value) {
+    if(disableApplePodcastApi.value) {
         Text("Discover isn't available")
         return
     }
