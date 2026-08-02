@@ -37,7 +37,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.rostrumpodcast.rostrum.R
-import com.rostrumpodcast.rostrum.ui.component.common.PoweredByApplepodcastBadge
+import com.rostrumpodcast.rostrum.ui.component.common.PoweredByApplePodcastsBadge
 import com.rostrumpodcast.rostrum.ui.component.layout.ErrorLayout
 import com.rostrumpodcast.rostrum.ui.component.layout.LoadingLayout
 import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerSpacer
@@ -62,7 +62,7 @@ fun DiscoverRoute(
     val context = LocalContext.current
 
     val settingsRepository = LocalSettingsRepository.current
-    val disableApplePodcastApi = settingsRepository.privacy.disableApplepodcastApi
+    val disableApplePodcastApi = settingsRepository.privacy.disableApplePodcastApi
         .collectAsState(false)
 
     if(disableApplePodcastApi.value) {
@@ -213,7 +213,7 @@ fun DiscoverRoute(
                     .padding(16.dp)
                     .padding(bottom = LocalFloatingMediaPlayerHeight.current)
             ) {
-                PoweredByApplepodcastBadge()
+                PoweredByApplePodcastsBadge()
             }
         }
     }

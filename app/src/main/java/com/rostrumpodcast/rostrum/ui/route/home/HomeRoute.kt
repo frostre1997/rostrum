@@ -1,3 +1,4 @@
+import com.rostrumpodcast.rostrum.api.db.model.PodcastSubscriptionBundle
 package com.rostrumpodcast.rostrum.ui.route.home
 
 import androidx.compose.foundation.layout.Arrangement
@@ -246,7 +247,7 @@ fun HomeRoute(
                                             modifier = Modifier.animateItem(),
                                             bundle = bundle,
                                             onClick = {
-                                                onClickPodcast(bundle.podcast.origin)
+                                                onClickPodcast(bundle.it.origin)
                                             }
                                         )
                                     }
@@ -389,7 +390,7 @@ fun HomeRoute(
                                             modifier = Modifier.animateItem(),
                                             podcast = podcast,
                                             onClick = {
-                                                onClickPodcast(podcast.episode.origin)
+                                                onClickPodcast(podcast.it.origin)
                                             }
                                         )
                                     }

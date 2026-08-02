@@ -1,3 +1,4 @@
+import com.rostrumpodcast.rostrum.api.db.model.PodcastSubscriptionBundle
 package com.rostrumpodcast.rostrum.ui.route.content
 
 import com.rostrumpodcast.rostrum.api.db.model.PodcastSubscriptionBundle

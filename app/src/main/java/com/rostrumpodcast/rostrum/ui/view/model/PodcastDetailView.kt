@@ -116,7 +116,7 @@ import com.rostrumpodcast.rostrum.ui.component.media.LocalFloatingMediaPlayerHei
 import com.rostrumpodcast.rostrum.ui.component.model.ContentFavoriteButton
 import com.rostrumpodcast.rostrum.ui.component.model.ContentSaveToListButton
 import com.rostrumpodcast.rostrum.ui.component.model.episode.PodcastEpisodeListItem
-import com.rostrumpodcast.rostrum.ui.component.model.podcast.PodcastSearchFilterOrderBar
+import com.rostrumpodcast.rostrum.ui.component.model.podcast.// PodcastSearchFilterOrderBar
 import com.rostrumpodcast.rostrum.ui.dialog.DeleteConfirmationDialog
 import com.rostrumpodcast.rostrum.ui.dialog.ShimmerAsyncImage
 import com.rostrumpodcast.rostrum.ui.dialog.bottomsheet.PodcastSettingsBottomSheet
@@ -596,7 +596,7 @@ fun LazyListScope.podcastDetailViewEpisodesDestination(
     item(
         key = "BAR"
     ) {
-        PodcastSearchFilterOrderBar(
+        // PodcastSearchFilterOrderBar(
             Modifier
                 .background(MaterialTheme.colorScheme.surfaceContainer)
                 .padding(16.dp)

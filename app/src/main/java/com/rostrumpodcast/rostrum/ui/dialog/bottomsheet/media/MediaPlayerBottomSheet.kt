@@ -182,7 +182,7 @@ fun MediaPlayerBottomSheet(
                                         Modifier.padding(8.dp),
                                         verticalAlignment = Alignment.CenterVertically
                                     ) {
-                                        Icon(
+                                        // Icon(
                                             modifier = Modifier.size(12.dp),
                                             imageVector = Icons.Rounded.Download,
                                             contentDescription = stringResource(R.string.common_downloaded)
@@ -208,7 +208,7 @@ fun MediaPlayerBottomSheet(
                                         Modifier.padding(8.dp),
                                         verticalAlignment = Alignment.CenterVertically
                                     ) {
-                                        Icon(
+                                        // Icon(
                                             painter = painterResource(/*R.drawable.ic_placeholder*/),
                                             contentDescription = null
 
@@ -352,7 +352,7 @@ fun MediaPlayerBottomSheet(
                                         vm.seekBack()
                                     }
                                 ) {
-                                    Icon(
+                                    // Icon(
                                         imageVector = when(vm.seekBackIncrement) {
                                             5000L -> Icons.Rounded.Replay5
                                             10000L -> Icons.Rounded.Replay10
@@ -394,7 +394,7 @@ fun MediaPlayerBottomSheet(
                                     }
                                 ) {
                                     AnimatedContent(vm.isPlaying) {
-                                        Icon(
+                                        // Icon(
                                             imageVector = when(it) {
                                                 true -> Icons.Rounded.Pause
                                                 false -> Icons.Rounded.PlayArrow
@@ -419,7 +419,7 @@ fun MediaPlayerBottomSheet(
                                         vm.seekForward()
                                     }
                                 ) {
-                                    Icon(
+                                    // Icon(
                                         imageVector = when(vm.seekForwardIncrement) {
                                             5000L -> Icons.Rounded.Forward5
                                             10000L -> Icons.Rounded.Forward10
@@ -464,7 +464,7 @@ fun MediaPlayerBottomSheet(
                             Row(
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
-                                Icon(
+                                // Icon(
                                     Icons.Filled.Bedtime,
                                     contentDescription = stringResource(R.string.common_sleep_timer),
                                     modifier = Modifier.size(ButtonDefaults.iconSizeFor(size)),
@@ -502,7 +502,7 @@ fun MediaPlayerBottomSheet(
                             Row(
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
-                                Icon(
+                                // Icon(
                                     Icons.Filled.Speed,
                                     contentDescription = stringResource(R.string.common_playback_speed),
                                     modifier = Modifier.size(ButtonDefaults.iconSizeFor(size)),
@@ -537,7 +537,7 @@ fun MediaPlayerBottomSheet(
                         Row(
                             verticalAlignment = Alignment.CenterVertically
                         ) {
-                            Icon(
+                            // Icon(
                                 Icons.AutoMirrored.Rounded.QueueMusic,
                                 contentDescription = stringResource(R.string.common_queue),
                                 modifier = Modifier.size(ButtonDefaults.iconSizeFor(size)),

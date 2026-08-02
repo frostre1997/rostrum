@@ -37,7 +37,7 @@ class PeriodicPodcastUpdateWorker(
     }
 
     companion object {
-        suspend fun enqueueWorker(
+        suspend fun // enqueueWorker(
             context: Context,
             settingsRepository: SettingsRepository,
             replace: Boolean = false,
@@ -46,7 +46,7 @@ class PeriodicPodcastUpdateWorker(
             // val intervalMinutes = settingsRepository.behavior.updatePodcastIntervalMinutes.first()
             // val inRoaming = settingsRepository.behavior.updatePodcastInRoaming.first()
 
-            enqueueWorker(
+            // enqueueWorker(
                 context = context,
                 // repeatIntervalMinutes = intervalMinutes.toLong(),
                 // inRoaming = inRoaming,
@@ -55,7 +55,7 @@ class PeriodicPodcastUpdateWorker(
             )
         }
 
-        fun enqueueWorker(
+        fun // enqueueWorker(
             context: Context,
             repeatIntervalMinutes: Long,
             inRoaming: Boolean,

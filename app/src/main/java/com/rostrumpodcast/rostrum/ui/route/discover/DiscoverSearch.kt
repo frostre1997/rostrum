@@ -38,7 +38,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.rostrumpodcast.rostrum.R
 import com.rostrumpodcast.rostrum.ui.component.common.CommonSearchInputField
-import com.rostrumpodcast.rostrum.ui.component.common.PoweredByApplepodcastBadge
+import com.rostrumpodcast.rostrum.ui.component.common.PoweredByApplePodcastsBadge
 import com.rostrumpodcast.rostrum.ui.component.layout.ErrorLayout
 import com.rostrumpodcast.rostrum.ui.component.layout.InfoLayout
 import com.rostrumpodcast.rostrum.ui.component.layout.LoadingLayout
@@ -194,6 +194,6 @@ private fun BoxScope.SearchContent(
             .align(Alignment.BottomCenter)
             .padding(16.dp)
     ) {
-        PoweredByApplepodcastBadge()
+        PoweredByApplePodcastsBadge()
     }
 }

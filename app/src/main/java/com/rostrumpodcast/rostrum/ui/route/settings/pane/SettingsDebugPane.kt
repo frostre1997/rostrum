@@ -195,13 +195,13 @@ fun SettingsDebugPane(
 
                     onClick = {
                         scope.launch {
-                           // val podcasts = db.podcasts().allSync()
+                           // val // podcasts = db.// podcasts().allSync()
 
-                            podcasts.forEach {
+                            // podcasts.forEach {
                                 // val episodes = db.podcastEpisodes().all(it.origin).first()
 
                                 // db.podcastEpisodes().delete(episodes.first().episode.id)
-                                db.podcastSubscriptions()
+                                db.// podcastSubscriptions()
                                     // .storeCacheValues(it.origin, "", "", "")
                             }
                         }
@@ -215,7 +215,7 @@ fun SettingsDebugPane(
                         Icon(Icons.Rounded.Palette, "")
                     },
                     label = "Fix seed colors",
-                    description = "Create seed colors for all podcasts",
+                    description = "Create seed colors for all // podcasts",
 
                     index = 3,
                     count = 6,
