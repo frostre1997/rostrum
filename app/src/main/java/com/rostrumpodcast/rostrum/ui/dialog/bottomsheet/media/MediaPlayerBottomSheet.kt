@@ -210,7 +210,7 @@ fun MediaPlayerBottomSheet(
                                     ) {
                                         Icon(
                                             modifier = Modifier.size(12.dp),
-                                            // imageVector = Icons.Rounded.episode,
+                                            mageVector = Icons.(/* placeholder */),
                                             contentDescription = stringResource(R.string.common_info)
                                         )
 
