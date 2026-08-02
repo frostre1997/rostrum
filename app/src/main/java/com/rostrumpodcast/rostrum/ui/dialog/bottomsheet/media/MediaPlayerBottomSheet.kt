@@ -209,9 +209,9 @@ fun MediaPlayerBottomSheet(
                                         verticalAlignment = Alignment.CenterVertically
                                     ) {
                                         Icon(
-                                            modifier = Modifier.size(12.dp),
-                                            mageVector = Icons.(/* placeholder */),
-                                            contentDescription = stringResource(R.string.common_info)
+                                            painter = painterResource(/*R.drawable.ic_placeholder*/),
+                                            contentDescription = null
+
                                         )
 
                                         Spacer(Modifier.width(8.dp))
