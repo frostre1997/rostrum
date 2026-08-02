@@ -163,7 +163,7 @@ class SettingsViewModel(
         context: Context
     ) {
         viewModelScope.launch {
-            PeriodicPodcastUpdateWorker.enqueueWorker(
+            PeriodicPodcastUpdateWorker.// enqueueWorker(
                 context = context,
                 settingsRepository = repository,
                 replace = true,

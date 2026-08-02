@@ -34,7 +34,7 @@ class OpmlImportingViewModel : ViewModel() {
 
     fun selectFile(context: Context, db: AppDatabase, uri: Uri) {
         viewModelScope.launch(Dispatchers.IO) {
-            val podcastOrigins = db.podcasts().allOrigins()
+            val podcastOrigins = db.// podcasts().allOrigins()
 
             try {
                 val xml = context.contentResolver.openInputStream(uri)?.use { inputStream ->

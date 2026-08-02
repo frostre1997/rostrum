@@ -62,10 +62,10 @@ fun DiscoverRoute(
     val context = LocalContext.current
 
     val settingsRepository = LocalSettingsRepository.current
-    val disableApplePodcastApi = settingsRepository.privacy.disableApplePodcastApi
+    val // disableApplePodcastApi = settingsRepository.privacy.// disableApplePodcastApi
         .collectAsState(false)
 
-    if(disableApplePodcastApi.value) {
+    if(// disableApplePodcastApi.value) {
         Text("Discover isn't available")
         return
     }

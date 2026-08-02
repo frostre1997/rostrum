@@ -107,7 +107,7 @@ class DiscoverViewModel : ViewModel() {
             val topic = Topics.entries[index]
 
             states[index] = try {
-                val elements = applePodcastClient.topPodcasts.load(
+                val elements = applePodcastClient.// topPodcasts.load(
                     countryCode = countryCode,
                     genre = topic.genre
                 )

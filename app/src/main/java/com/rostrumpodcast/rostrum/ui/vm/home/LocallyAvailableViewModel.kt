@@ -17,7 +17,7 @@ class LocallyAvailableViewModel(
             pageSize = 15
         )
     ) {
-        db.podcasts().all()
+        db.// podcasts().all()
     }.flow
 
 }

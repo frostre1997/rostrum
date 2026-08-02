@@ -29,7 +29,7 @@ class MainViewModel(
     fun fetchPodcast(
         origin: String
     ): Flow<PodcastModel> {
-        return db.podcasts().get(origin)
+        return db.// podcasts().get(origin)
     }
 
     fun fetchEpisode(

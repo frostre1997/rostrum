@@ -1,81 +1,12 @@
-import com.rostrumpodcast.rostrum.api.db.model.PodcastSubscriptionBundle
 package com.rostrumpodcast.rostrum.ui.route.content
 
-import com.rostrumpodcast.rostrum.api.db.model.PodcastSubscriptionBundle
-import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.lazy.grid.GridCells
-import androidx.compose.foundation.lazy.grid.GridItemSpan
-import androidx.compose.foundation.lazy.grid.LazyGridState
-import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
-import androidx.compose.material3.CenterAlignedTopAppBar
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.input.nestedscroll.nestedScroll
-import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
-import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.paging.compose.collectAsLazyPagingItems
-import com.rostrumpodcast.rostrum.R
-import com.rostrumpodcast.rostrum.ui.component.common.BackButton
-import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerSpacer
-import com.rostrumpodcast.rostrum.ui.component.model.SubscriptionCard
-import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
-import com.rostrumpodcast.rostrum.ui.vm.home.SubscriptionsViewModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
 
-@OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable
 fun SubscriptionsRoute(
-    onClickPodcast: (origin: String) -> Unit,
-    onBack: () -> Unit
+    onClickPodcast: (String) -> Unit,
+    onClickEpisode: (PodcastEpisodeModel) -> Unit
 ) {
-    val db = LocalDatabase.current
-    val vm = viewModel { SubscriptionsViewModel(db) }
-
-    val subscriptions = vm.subscriptions.collectAsLazyPagingItems<PodcastSubscriptionBundle>()
-
-    val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
-
-    Scaffold(
-        Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
-        topBar = {
-            CenterAlignedTopAppBar(
-                scrollBehavior = scrollBehavior,
-                navigationIcon = {
-                    BackButton { onBack() }
-                },
-                title = {
-                    Text(stringResource(R.string.route_subscriptions))
-                }
-            )
-        }
-    ) { inset ->
-        LazyVerticalGrid(
-            state = when(subscriptions.itemCount) {
-                0 -> LazyGridState()
-                else -> vm.lazyGridState
-            },
-            columns = GridCells.Adaptive(100.dp),
-            modifier = Modifier.padding(inset),
-            contentPadding = PaddingValues(16.dp),
-        ) {
-            items(subscriptions.itemCount) {
-                val item = subscriptions[it] ?: return@items
-
-                SubscriptionCard(
-                    bundle = item,
-                    onClick = { onClickPodcast(item.subscription.podcast) }
-                )
-            }
-
-            item(span = { GridItemSpan(maxLineSpan) }) {
-                FloatingMediaPlayerSpacer()
-            }
-        }
-    }
+    // TODO: implement subscriptions
 }

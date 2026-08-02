@@ -1,6 +1,6 @@
-package com.rostrumpodcast.rostrum.ui.route.content
+package com.rostrumit.rostrum.ui.route.content
 
-import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumit.rostrum.api.db.model.PodcastEpisodeModel
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -20,12 +20,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.paging.compose.collectAsLazyPagingItems
-import com.rostrumpodcast.rostrum.R
-import com.rostrumpodcast.rostrum.ui.component.common.BackButton
-import com.rostrumpodcast.rostrum.ui.component.media.FloatingMediaPlayerSpacer
-import com.rostrumpodcast.rostrum.ui.component.model.PodcastCard
-import com.rostrumpodcast.rostrum.ui.helper.LocalDatabase
-import com.rostrumpodcast.rostrum.ui.vm.home.LocallyAvailableViewModel
+import com.rostrumit.rostrum.R
+import com.rostrumit.rostrum.ui.component.common.BackButton
+import com.rostrumit.rostrum.ui.component.media.FloatingMediaPlayerSpacer
+import com.rostrumit.rostrum.ui.component.model.PodcastCard
+import com.rostrumit.rostrum.ui.helper.LocalDatabase
+import com.rostrumit.rostrum.ui.vm.home.LocallyAvailableViewModel
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable
@@ -67,8 +67,8 @@ fun LocallyAvailableRoute(
                 val item = locallyAvailable[it] ?: return@items
 
                 PodcastCard(
-                    podcast = item,
-                    onClick = { onClickPodcast(item.podcast.origin) }
+                    it = item,
+                    onClick = { onClickPodcast(item.it.origin) }
                 )
             }
 

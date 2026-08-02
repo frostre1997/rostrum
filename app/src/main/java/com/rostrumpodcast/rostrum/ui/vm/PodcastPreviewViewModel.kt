@@ -53,7 +53,7 @@ class PodcastPreviewViewModel(
 
     init {
         viewModelScope.launch {
-            duplicate = db.podcasts().getSync(
+            duplicate = db.// podcasts().getSync(
                 origin = podcastPreview.fetchUrl
             )
         }

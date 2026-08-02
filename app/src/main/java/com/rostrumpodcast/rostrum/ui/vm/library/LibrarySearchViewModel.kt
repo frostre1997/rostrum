@@ -13,7 +13,7 @@ import kotlinx.coroutines.flow.Flow
 interface LibrarySearchState {
     class Idle() : LibrarySearchState
     data class Done(
-        val podcastsPager: Flow<PagingData<PodcastModel>>,
+        val // podcastsPager: Flow<PagingData<PodcastModel>>,
         val episodesPager: Flow<PagingData<PodcastEpisodeBundle>>
     ) : LibrarySearchState
 }
@@ -26,13 +26,13 @@ class LibrarySearchViewModel(
 
     fun search(query: String) {
         state.value = LibrarySearchState.Done(
-            podcastsPager = Pager(
+            // podcastsPager = Pager(
                 PagingConfig(
                     pageSize = 30,
                     enablePlaceholders = false
                 )
             ) {
-                db.podcasts().search(query)
+                db.// podcasts().search(query)
             }.flow,
             episodesPager = Pager(
                 PagingConfig(

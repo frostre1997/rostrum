@@ -1,49 +1,14 @@
 package com.rostrumpodcast.rostrum
 
 import android.app.Application
-import android.content.Context
-import com.rostrumpodcast.rostrum.background.worker.NightlyWorker
-import com.rostrumpodcast.rostrum.background.worker.PeriodicPodcastUpdateWorker
-import com.rostrumpodcast.rostrum.background.worker.sync.PartialSynchronizationWorker
-import coil3.ImageLoader
-import coil3.SingletonImageLoader
-import coil3.request.crossfade
-import coil3.util.DebugLogger
-import kotlinx.coroutines.MainScope
-import kotlinx.coroutines.flow.first
-import kotlinx.coroutines.launch
+import androidx.work.Configuration
 
-class App : Application(), SingletonImageLoader.Factory {
+class App : Application(), Configuration.Provider {
+    override fun getWorkManagerConfiguration(): Configuration {
+        return Configuration.Builder().build()
+    }
     override fun onCreate() {
         super.onCreate()
-
-        val settingsRepository = SettingsRepository(this)
-
-        MainScope().launch {
-            if(settingsRepository.sync.enable.first()) {
-                PartialSynchronizationWorker.schedule(
-                    context = this@App
-                )
-
-                PartialSynchronizationWorker.enqueue(
-                    context = this@App
-                )
-            }
-
-            PeriodicPodcastUpdateWorker. //// enqueueWorker(
-                //context = this@App,
-                //settingsRepository = settingsRepository,
-                //replace = false
-            )
-        }
-
-        NightlyWorker.scheduleNightlyWork(this)
+        // TODO: initialize workers
     }
-
-    override fun newImageLoader(context: Context): ImageLoader {
-        return ImageLoader.Builder(context)
-            .logger(DebugLogger())
-            .crossfade(true)
-            .build()
-    }
-}// force rebuild
+}

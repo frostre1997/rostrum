@@ -23,7 +23,7 @@ import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeBundle
 import com.rostrumpodcast.rostrum.api.db.model.PodcastModel
 import com.rostrumpodcast.rostrum.background.work.SingularPodcastUpdateWork
 import com.rostrumpodcast.rostrum.manager.SubscriptionManager
-import com.rostrumpodcast.rostrum.ui.component.model.podcast.PodcastSearchFilterOrderBarState
+import com.rostrumpodcast.rostrum.ui.component.model.podcast.// PodcastSearchFilterOrderBarState
 import com.rostrumpodcast.rostrum.ui.view.model.Destinations
 import coil3.Image
 import coil3.asDrawable
@@ -52,7 +52,7 @@ class PodcastDetailViewModel(
         db = db
     )
 
-    val searchFilterOrderBarState = PodcastSearchFilterOrderBarState()
+    val searchFilterOrderBarState = // PodcastSearchFilterOrderBarState()
 
     @OptIn(FlowPreview::class, ExperimentalCoroutinesApi::class)
     val episodePager =
@@ -83,7 +83,7 @@ class PodcastDetailViewModel(
             .cachedIn(viewModelScope)
 
     val subscription =
-        db.podcastSubscriptions().get(podcast.origin)
+        db.// podcastSubscriptions().get(podcast.origin)
 
     var selectedDestination by mutableStateOf(Destinations.EPISODES)
 
@@ -104,28 +104,28 @@ class PodcastDetailViewModel(
 
     fun enableNotifications() {
         viewModelScope.launch {
-            db.podcastSubscriptions()
+            db.// podcastSubscriptions()
                 .enableNotifications(podcast.origin)
         }
     }
 
     fun disableNotifications() {
         viewModelScope.launch {
-            db.podcastSubscriptions()
+            db.// podcastSubscriptions()
                 .disableNotifications(podcast.origin)
         }
     }
 
     fun enableAutoDownload() {
         viewModelScope.launch {
-            db.podcastSubscriptions()
+            db.// podcastSubscriptions()
                 .enableAutoDownload(podcast.origin)
         }
     }
 
     fun disableAutoDownload() {
         viewModelScope.launch {
-            db.podcastSubscriptions()
+            db.// podcastSubscriptions()
                 .disableAutoDownload(podcast.origin)
         }
     }
@@ -144,11 +144,11 @@ class PodcastDetailViewModel(
 
     fun deletePodcast() {
         viewModelScope.launch {
-            if(db.podcastSubscriptions().getSync(podcast.origin) != null) {
+            if(db.// podcastSubscriptions().getSync(podcast.origin) != null) {
                 subscriptionManager.unsubscribe(podcast.origin)
             }
 
-            db.podcasts().delete(podcast)
+            db.// podcasts().delete(podcast)
         }
     }
 
@@ -194,7 +194,7 @@ class PodcastDetailViewModel(
             val themeColor = image.asDrawable(context.resources)
                 .toBitmap().asImageBitmap().themeColorOrNull()
 
-            db.podcasts().updateImageSeedColor(podcast.origin, themeColor?.toArgb() ?: -1)
+            db.// podcasts().updateImageSeedColor(podcast.origin, themeColor?.toArgb() ?: -1)
         }
     }
 
