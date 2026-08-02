@@ -68,7 +68,7 @@ fun LocallyAvailableRoute(
 
                 PodcastCard(
                     podcast = item,
-                    onClick = { onClickPodcast(item.episode.origin) }
+                    onClick = { onClickPodcast(item.it.origin) }
                 )
             }
 
