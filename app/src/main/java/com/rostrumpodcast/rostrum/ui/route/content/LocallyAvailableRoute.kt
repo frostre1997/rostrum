@@ -1,5 +1,6 @@
 package com.rostrumpodcast.rostrum.ui.route.content
 
+import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.grid.GridCells
