@@ -74,7 +74,7 @@ fun PoweredByApplepodcastBadge() {
             Modifier.padding(24.dp)
         ) {
             Text(
-                text = stringResource("Powered by Apple Podcasts"),
+                text = "Apple Podcasts"
                 style = Typography.headlineMediumEmphasized
             )
 
