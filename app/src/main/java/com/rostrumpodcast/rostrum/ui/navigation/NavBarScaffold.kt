@@ -28,7 +28,7 @@ fun NavBarScaffold(
 
     val settingsRepository = LocalSettingsRepository.current
      // val disableApplePodcastApi = settingsRepository.privacy.disableApplepodcastApi
-        .collectAsState(false)
+        val something = something.collectAsState<Boolean>()
 
     NavigationSuiteScaffold(
         layoutType = layoutType,
