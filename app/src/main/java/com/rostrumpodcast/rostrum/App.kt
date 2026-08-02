@@ -30,10 +30,10 @@ class App : Application(), SingletonImageLoader.Factory {
                 )
             }
 
-            PeriodicPodcastUpdateWorker.// enqueueWorker(
-                context = this@App,
-                settingsRepository = settingsRepository,
-                replace = false
+            PeriodicPodcastUpdateWorker. //enqueueWorker(
+                //context = this@App,
+                //settingsRepository = settingsRepository,
+                //replace = false
             )
         }
 
