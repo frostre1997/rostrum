@@ -38,8 +38,8 @@ class PeriodicPodcastUpdateWorker(
 
     companion object {
         suspend fun // enqueueWorker(
-            context: Context,
-            settingsRepository: SettingsRepository,
+           // context: Context,
+           // settingsRepository: SettingsRepository,
             replace: Boolean = false,
             delay: Boolean = false
         ) {
