@@ -14,7 +14,7 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Add
 import androidx.compose.material.icons.rounded.Explore
-import androidx.compose.material.icons.rounded.podcastModel
+import androidx.compose.material.icons.rounded.Podcasts
 import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material3.Badge
 import androidx.compose.material3.Button
@@ -52,6 +52,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.rostrumpodcast.rostrum.R
 import com.rostrumpodcast.rostrum.api.db.model.PodcastEpisodeModel
+import com.rostrumpodcast.rostrum.api.db.model.PodcastSubscriptionBundle
 import com.rostrumpodcast.rostrum.ui.component.layout.InfoLayout
 import com.rostrumpodcast.rostrum.ui.component.layout.Section
 import com.rostrumpodcast.rostrum.ui.component.layout.SectionCarousel
@@ -101,10 +102,11 @@ fun HomeRoute(
     val newEpisodesVm = viewModel { NewEpisodesViewModel(db) }
     val locallyAvailableVm = viewModel { LocallyAvailableViewModel(db) }
 
-    val subscriptions = vm.subscriptions.collectAsLazyPagingItems<PodcastSubscriptionBundle>()
+    // FIXED: Use the correct ViewModel instances
+    val subscriptionsPager = subscriptionsVm.subscriptions.collectAsLazyPagingItems<PodcastSubscriptionBundle>()
     val continuePlayingPager = continuePlayingVm.continuePlaying.collectAsLazyPagingItems()
     val newEpisodesPager = newEpisodesVm.newEpisodes.collectAsLazyPagingItems()
-    val locallyAvailable = vm.locallyAvailable.collectAsLazyPagingItems<PodcastEpisodeModel>()
+    val locallyAvailablePager = locallyAvailableVm.locallyAvailable.collectAsLazyPagingItems<PodcastEpisodeModel>()
 
     val loaded = remember { mutableStateOf(false) }
     LaunchedEffect(
@@ -191,7 +193,7 @@ fun HomeRoute(
                     locallyAvailablePager,
                     isEmpty = {
                         InfoLayout(
-                            icon = Icons.Rounded.podcastModel,
+                            icon = Icons.Rounded.Podcasts,
                             title = {
                                 stringResource(R.string.route_home_empty_title)
                             },
@@ -245,7 +247,7 @@ fun HomeRoute(
                                             modifier = Modifier.animateItem(),
                                             bundle = bundle,
                                             onClick = {
-                                                onClickPodcast(bundle.podcastModel.origin)
+                                                onClickPodcast(bundle.podcast.origin)
                                             }
                                         )
                                     }
