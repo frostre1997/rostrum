@@ -68,7 +68,7 @@ fun SubscriptionsRoute(
 
                 SubscriptionCard(
                     bundle = item,
-                    onClick = { onClickPodcast(item.it.podcast) }
+                    onClick = { onClickPodcast(item.subscription.podcast) }
                 )
             }
 
