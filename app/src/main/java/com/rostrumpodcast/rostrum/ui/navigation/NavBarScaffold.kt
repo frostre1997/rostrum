@@ -27,7 +27,7 @@ fun NavBarScaffold(
     val currentNavKey = currentNavKey()
 
     val settingsRepository = LocalSettingsRepository.current
-    val disableApplePodcastApi = settingsRepository.privacy.disableApplepodcastApi
+     // val disableApplePodcastApi = settingsRepository.privacy.disableApplepodcastApi
         .collectAsState(false)
 
     NavigationSuiteScaffold(
@@ -36,7 +36,7 @@ fun NavBarScaffold(
         containerColor = Color.Transparent,
         navigationSuiteItems = {
             NavBarItems.entries.forEach {
-                if(disableApplepodcastApi.value && it == NavBarItems.DISCOVER)
+                // if(disableApplepodcastApi.value && it == NavBarItems.DISCOVER)
                     return@forEach
 
                 item(
