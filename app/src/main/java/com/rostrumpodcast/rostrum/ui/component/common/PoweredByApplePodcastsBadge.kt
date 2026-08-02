@@ -82,7 +82,7 @@ fun PoweredByApplepodcastBadge() {
 
             Text(
                 text = stringResource(
-                    R.string.badge_powered_by_apple_podcast_text,
+                    "Powered by Apple Podcasts",
                     stringResource(R.string.app_name)
                 )
             )
